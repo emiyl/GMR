@@ -8,6 +8,7 @@
 #include "GameMaker.h"
 #include "MemoryManager.h"
 #include "globals.h"
+#include "custom/logging.h"
 
 struct tagYYGUID { unsigned char bytes[16]{}; };
 
@@ -40,9 +41,6 @@ void* Lives_Caption = nullptr;
 void* Health_Caption = nullptr;
 void* Load_GameName = nullptr;
 
-inline void YYInfo(const char* /*fmt*/, ...) {}
-inline void YYWarning(const char* /*fmt*/, ...) {}
-inline void YYError(const char* /*fmt*/, ...) {}
 inline bool InitRuntime() { return true; }
 inline void Quit() {}
 inline void RunGame() {}

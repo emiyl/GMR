@@ -7,6 +7,7 @@
 #include "MemoryManager.h"
 #include "Graphics_Perf.h"
 #include "globals.h"
+#include "custom/logging.h"
 
 int GraphicsPerf::ms_DisplayFlags = 0;
 int GraphicsPerf::ms_MinimisedFlags = 0;
@@ -23,11 +24,6 @@ enum class WallpaperDisplayMode
 };
 
 WallpaperDisplayMode g_WallpaperDisplayMode = WallpaperDisplayMode::Main;
-
-static void YYError(const char* message)
-{
-    (void)message;
-}
 
 static void CopyToken(const char* src, char* dst, std::size_t dstSize)
 {
