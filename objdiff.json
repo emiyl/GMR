@@ -1,6 +1,17 @@
 {
-  "build_base": false,
+  "custom_make": "./objdiff-ninja",
+  "build_base": true,
   "build_target": false,
+  "watch_patterns": [
+    "*.c",
+    "*.cc",
+    "*.cpp",
+    "*.h",
+    "*.hpp"
+  ],
+  "ignore_patterns": [
+    "build/**/*"
+  ],
   "units": [
     {
       "name": "AbsoluteLayout",
@@ -11,24 +22,20 @@
     {
       "name": "Animation",
       "target_path": "target/Animation.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Animation.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Animation.c.obj",
       "metadata": {}
     },
     {
       "name": "AnimationState",
       "target_path": "target/AnimationState.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/AnimationState.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/AnimationState.c.obj",
       "metadata": {}
     },
     {
       "name": "Array",
       "target_path": "target/Array.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Array.cpp.obj",
-      "metadata": {},
-      "symbol_mappings": {
-        "spFloatArray_create": "?spFloatArray_create@@YAXXZ",
-        "spIntArray_create": "?spShortArray_create@@YAXXZ"
-      }
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Array.c.obj",
+      "metadata": {}
     },
     {
       "name": "AssertFatal",
@@ -39,25 +46,25 @@
     {
       "name": "Atlas",
       "target_path": "target/Atlas.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Atlas.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Atlas.c.obj",
       "metadata": {}
     },
     {
       "name": "AtlasAttachmentLoader",
       "target_path": "target/AtlasAttachmentLoader.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/AtlasAttachmentLoader.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/AtlasAttachmentLoader.c.obj",
       "metadata": {}
     },
     {
       "name": "Attachment",
       "target_path": "target/Attachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Attachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Attachment.c.obj",
       "metadata": {}
     },
     {
       "name": "AttachmentLoader",
       "target_path": "target/AttachmentLoader.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/AttachmentLoader.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/AttachmentLoader.c.obj",
       "metadata": {}
     },
     {
@@ -105,19 +112,19 @@
     {
       "name": "Bone",
       "target_path": "target/Bone.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Bone.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Bone.c.obj",
       "metadata": {}
     },
     {
       "name": "BoneData",
       "target_path": "target/BoneData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/BoneData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/BoneData.c.obj",
       "metadata": {}
     },
     {
       "name": "BoundingBoxAttachment",
       "target_path": "target/BoundingBoxAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/BoundingBoxAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/BoundingBoxAttachment.c.obj",
       "metadata": {}
     },
     {
@@ -159,7 +166,7 @@
     {
       "name": "ClippingAttachment",
       "target_path": "target/ClippingAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/ClippingAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/ClippingAttachment.c.obj",
       "metadata": {}
     },
     {
@@ -201,7 +208,7 @@
     {
       "name": "Color",
       "target_path": "target/Color.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Color.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Color.c.obj",
       "metadata": {}
     },
     {
@@ -249,7 +256,7 @@
     {
       "name": "EventData",
       "target_path": "target/EventData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/EventData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/EventData.c.obj",
       "metadata": {}
     },
     {
@@ -549,13 +556,13 @@
     {
       "name": "IkConstraint",
       "target_path": "target/IkConstraint.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/IkConstraint.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/IkConstraint.c.obj",
       "metadata": {}
     },
     {
       "name": "IkConstraintData",
       "target_path": "target/IkConstraintData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/IkConstraintData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/IkConstraintData.c.obj",
       "metadata": {}
     },
     {
@@ -603,7 +610,7 @@
     {
       "name": "Json",
       "target_path": "target/Json.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Json.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Json.c.obj",
       "metadata": {}
     },
     {
@@ -645,7 +652,7 @@
     {
       "name": "MeshAttachment",
       "target_path": "target/MeshAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/MeshAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/MeshAttachment.c.obj",
       "metadata": {}
     },
     {
@@ -717,19 +724,19 @@
     {
       "name": "PathAttachment",
       "target_path": "target/PathAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/PathAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/PathAttachment.c.obj",
       "metadata": {}
     },
     {
       "name": "PathConstraint",
       "target_path": "target/PathConstraint.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/PathConstraint.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/PathConstraint.c.obj",
       "metadata": {}
     },
     {
       "name": "PathConstraintData",
       "target_path": "target/PathConstraintData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/PathConstraintData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/PathConstraintData.c.obj",
       "metadata": {}
     },
     {
@@ -795,7 +802,7 @@
     {
       "name": "PointAttachment",
       "target_path": "target/PointAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/PointAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/PointAttachment.c.obj",
       "metadata": {}
     },
     {
@@ -807,7 +814,7 @@
     {
       "name": "RegionAttachment",
       "target_path": "target/RegionAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/RegionAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/RegionAttachment.c.obj",
       "metadata": {}
     },
     {
@@ -927,7 +934,7 @@
     {
       "name": "Skeleton",
       "target_path": "target/Skeleton.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Skeleton.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Skeleton.c.obj",
       "metadata": {}
     },
     {
@@ -939,43 +946,43 @@
     {
       "name": "SkeletonBounds",
       "target_path": "target/SkeletonBounds.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonBounds.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/SkeletonBounds.c.obj",
       "metadata": {}
     },
     {
       "name": "SkeletonClipping",
       "target_path": "target/SkeletonClipping.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonClipping.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/SkeletonClipping.c.obj",
       "metadata": {}
     },
     {
       "name": "SkeletonData",
       "target_path": "target/SkeletonData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/SkeletonData.c.obj",
       "metadata": {}
     },
     {
       "name": "SkeletonJson",
       "target_path": "target/SkeletonJson.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonJson.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/SkeletonJson.c.obj",
       "metadata": {}
     },
     {
       "name": "Skin",
       "target_path": "target/Skin.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Skin.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Skin.c.obj",
       "metadata": {}
     },
     {
       "name": "Slot",
       "target_path": "target/Slot.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Slot.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Slot.c.obj",
       "metadata": {}
     },
     {
       "name": "SlotData",
       "target_path": "target/SlotData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/SlotData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/SlotData.c.obj",
       "metadata": {}
     },
     {
@@ -1125,19 +1132,19 @@
     {
       "name": "TransformConstraint",
       "target_path": "target/TransformConstraint.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/TransformConstraint.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/TransformConstraint.c.obj",
       "metadata": {}
     },
     {
       "name": "TransformConstraintData",
       "target_path": "target/TransformConstraintData.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/TransformConstraintData.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/TransformConstraintData.c.obj",
       "metadata": {}
     },
     {
       "name": "Triangulator",
       "target_path": "target/Triangulator.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/Triangulator.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/Triangulator.c.obj",
       "metadata": {}
     },
     {
@@ -1185,7 +1192,7 @@
     {
       "name": "VertexAttachment",
       "target_path": "target/VertexAttachment.obj",
-      "base_path": "build/CMakeFiles/GMR.dir/src/VertexAttachment.cpp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/spine-c/src/spine/VertexAttachment.c.obj",
       "metadata": {}
     },
     {

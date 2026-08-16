@@ -1,0 +1,11 @@
+#!/bin/sh
+
+target="$1"
+
+case "$target" in
+    build/*)
+        target="${target#build/}"
+        ;;
+esac
+
+exec ninja -C build "$target"
