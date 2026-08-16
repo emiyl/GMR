@@ -1,6 +1,6 @@
 # Windows-x64-VM-Green-2024.14.4.268-c66887b7abbc804a75824c567cab4486906f298d
 
-Compile using MSVC 19.38.33145.0 and Linker 14.29.30159.0. The PDB suggest it was compiled with SDK 10.0.26100.0, but it was also released on April 14th, 2014, which predates that SDK. So we're using 22621 instead here.
+Compile using MSVC 19.38.33145.0 and Linker 14.29.30159.0. The PDB suggest it was compiled with SDK 10.0.26100.0, but it was also released on April 14th, 2024, which predates that SDK. So we're using 22621 instead here.
 
 You can install this with the command below. Ensure the MSVC directory exists first.
 
