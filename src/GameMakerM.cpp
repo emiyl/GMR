@@ -5,63 +5,41 @@
 #include <cstdarg>
 #include <new>
 
+#include "GameMaker.h"
 #include "MemoryManager.h"
+#include "globals.h"
 
 struct tagYYGUID { unsigned char bytes[16]{}; };
 
-enum yyalInitState_t
+enum LibraryInitState
 {
-    yyalInitState_Initialized = 0,
-    yyalInitState_PostQuit = 1
+    PreInit = 0,
+    Init = 1,
+    PostQuit = 2
 };
 
-using yyal_result_t = int;
+enum yyal_result_t
+{
+    YYAL_ERR_NONE = 0,
+    YYAL_ERR_CRIT = 1,
+    YYAL_ERR_INIT = 2,
+    YYAL_ERR_PTR = 3,
+    YYAL_ERR_OP = 4,
+    YYAL_ERR_IDX = 5,
+    YYAL_ERR_INST = 6,
+    YYAL_ERR_VAL = 7,
+    YYAL_ERR_DONE = 8
+};
 
-int g_ReturnCode = 0;
-DWORD g_MainThreadId = 0;
-HINSTANCE g_hInstance = nullptr;
-char* g_pCommandLine = nullptr;
-char* g_pGameName = nullptr;
-char* g_pWorkingDirectory = nullptr;
-char* g_pFilePrePend = nullptr;
-bool g_fCreateMiniDump = false;
-bool g_fNoAudio = false;
-bool g_fDoGC = true;
-bool g_ReStart = false;
-bool g_fHeadless = false;
-bool g_fExitAfterFirstRoomCreationCode = false;
-bool g_fWallpaperMouseTimerMethod = false;
 bool Run_Running = true;
-bool g_bSetHighProcessPriority = false;
-bool g_TimePeriodSet = false;
-int g_TimeCurrentPeriod = 0;
-int g_SleepMargin = 0;
-int g_OriginalSleepMargin = 0;
-HWND g_pMainWindow = nullptr;
-HANDLE g_hHookMouseTimer = nullptr;
-int g_ApplicationSurface = 0;
-int g_ApplicationWidth = 0;
-int g_ApplicationHeight = 0;
-bool g_Application_Surface_Autodraw = true;
-int g_NewApplicationWidth = -1;
-int g_NewApplicationHeight = -1;
-bool g_NewApplicationSize = false;
-void* g_CurrViewSurfaceTexture = nullptr;
-void* g_pGlobal = nullptr;
-void* g_pGCObjectContainer = nullptr;
-int g_UseMultithreadedGC = 0;
-int g_ObjectGCcleanframe = 0;
-int g_ObjectGCbuildframe = 0;
 int Game_Id = 0;
 tagYYGUID Game_GUID{};
-TIMECAPS g_TimeCaps{};
-yyalInitState_t s_yyalInitState = yyalInitState_Initialized;
+LibraryInitState s_yyalInitState = LibraryInitState::PreInit;
 void* Score_Caption = nullptr;
 void* Lives_Caption = nullptr;
 void* Health_Caption = nullptr;
 void* Load_GameName = nullptr;
 
-inline void ProcessCommandLine(char*) {}
 inline void YYInfo(const char* /*fmt*/, ...) {}
 inline void YYWarning(const char* /*fmt*/, ...) {}
 inline void YYError(const char* /*fmt*/, ...) {}
@@ -81,7 +59,7 @@ inline void DoGenerationalGC(int) {}
 inline void ProcessObjectDisposeList() {}
 inline void ResetObjectGCList() {}
 inline void CheckYYAL(yyal_result_t) {}
-inline yyal_result_t YYAL_Quit() { return 0; }
+inline yyal_result_t YYAL_Quit() { return YYAL_ERR_NONE; }
 inline void* exception_handler = nullptr;
 inline void* runtime_check_handler = nullptr;
 inline void _RTC_SetErrorFunc(void*) {}
@@ -235,13 +213,13 @@ int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
 
     EndOfGame();
 
-    if (s_yyalInitState != yyalInitState_PostQuit && !g_fNoAudio)
+    if (s_yyalInitState != LibraryInitState::PostQuit && !g_fNoAudio)
     {
-        if (s_yyalInitState == yyalInitState_Initialized)
+        if (s_yyalInitState == LibraryInitState::Init)
         {
             const yyal_result_t audioResult = YYAL_Quit();
             CheckYYAL(audioResult);
-            s_yyalInitState = yyalInitState_PostQuit;
+            s_yyalInitState = LibraryInitState::PostQuit;
         }
         else
         {
