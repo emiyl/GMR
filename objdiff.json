@@ -1,0 +1,4222 @@
+{
+  "build_base": false,
+  "build_target": false,
+  "units": [
+    {
+      "name": "AbsoluteLayout",
+      "target_path": "target/AbsoluteLayout.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/AbsoluteLayout.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Animation",
+      "target_path": "target/Animation.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Animation.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "AnimationState",
+      "target_path": "target/AnimationState.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/AnimationState.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Array",
+      "target_path": "target/Array.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Array.cpp.obj",
+      "metadata": {},
+      "symbol_mappings": {
+        "spFloatArray_create": "?spFloatArray_create@@YAXXZ",
+        "spIntArray_create": "?spShortArray_create@@YAXXZ"
+      }
+    },
+    {
+      "name": "AssertFatal",
+      "target_path": "target/AssertFatal.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/AssertFatal.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Atlas",
+      "target_path": "target/Atlas.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Atlas.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "AtlasAttachmentLoader",
+      "target_path": "target/AtlasAttachmentLoader.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/AtlasAttachmentLoader.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Attachment",
+      "target_path": "target/Attachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Attachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "AttachmentLoader",
+      "target_path": "target/AttachmentLoader.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/AttachmentLoader.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Audio_Bus_Struct",
+      "target_path": "target/Audio_Bus_Struct.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Audio_Bus_Struct.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Audio_Effect_Struct",
+      "target_path": "target/Audio_Effect_Struct.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Audio_Effect_Struct.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Audio_Interface",
+      "target_path": "target/Audio_Interface.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Audio_Interface.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Audio_Interface_Ext",
+      "target_path": "target/Audio_Interface_Ext.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Audio_Interface_Ext.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Background_Class",
+      "target_path": "target/Background_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Background_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Background_Main",
+      "target_path": "target/Background_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Background_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Baseline",
+      "target_path": "target/Baseline.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Baseline.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Bone",
+      "target_path": "target/Bone.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Bone.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "BoneData",
+      "target_path": "target/BoneData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/BoneData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "BoundingBoxAttachment",
+      "target_path": "target/BoundingBoxAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/BoundingBoxAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Buffer_Fast",
+      "target_path": "target/Buffer_Fast.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Buffer_Fast.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Buffer_Manager",
+      "target_path": "target/Buffer_Manager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Buffer_Manager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Buffer_Vertex",
+      "target_path": "target/Buffer_Vertex.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Buffer_Vertex.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "CRC",
+      "target_path": "target/CRC.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/CRC.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Cache",
+      "target_path": "target/Cache.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Cache.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "CalculateLayout",
+      "target_path": "target/CalculateLayout.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/CalculateLayout.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ClippingAttachment",
+      "target_path": "target/ClippingAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ClippingAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Code_Constant",
+      "target_path": "target/Code_Constant.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Code_Constant.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Code_Error",
+      "target_path": "target/Code_Error.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Code_Error.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Code_ErrorM",
+      "target_path": "target/Code_ErrorM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Code_ErrorM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Code_Function",
+      "target_path": "target/Code_Function.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Code_Function.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Code_Main",
+      "target_path": "target/Code_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Code_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Code_Variable",
+      "target_path": "target/Code_Variable.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Code_Variable.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Color",
+      "target_path": "target/Color.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Color.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Common",
+      "target_path": "target/Common.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Common.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ConsoleM",
+      "target_path": "target/ConsoleM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ConsoleM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Debug_GameData",
+      "target_path": "target/Debug_GameData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Debug_GameData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Debug_NetworkInterface",
+      "target_path": "target/Debug_NetworkInterface.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Debug_NetworkInterface.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Debug_TCPServer",
+      "target_path": "target/Debug_TCPServer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Debug_TCPServer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "DirectInput",
+      "target_path": "target/DirectInput.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/DirectInput.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "EffectsManager",
+      "target_path": "target/EffectsManager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/EffectsManager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "EventData",
+      "target_path": "target/EventData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/EventData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Event_Class",
+      "target_path": "target/Event_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Event_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Event_Main",
+      "target_path": "target/Event_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Event_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Event_Name",
+      "target_path": "target/Event_Name.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Event_Name.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Extension_Class",
+      "target_path": "target/Extension_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Extension_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Extension_Main",
+      "target_path": "target/Extension_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Extension_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "FlexLine",
+      "target_path": "target/FlexLine.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/FlexLine.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Font_Class",
+      "target_path": "target/Font_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Font_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Font_Main",
+      "target_path": "target/Font_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Font_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_3D",
+      "target_path": "target/Function_3D.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_3D.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Data_Structures",
+      "target_path": "target/Function_Data_Structures.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Data_Structures.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_File",
+      "target_path": "target/Function_File.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_File.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_FileM",
+      "target_path": "target/Function_FileM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_FileM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Game",
+      "target_path": "target/Function_Game.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Game.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Gamepad",
+      "target_path": "target/Function_Gamepad.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Gamepad.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Graphics",
+      "target_path": "target/Function_Graphics.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Graphics.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_IAP",
+      "target_path": "target/Function_IAP.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_IAP.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Interaction",
+      "target_path": "target/Function_Interaction.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Interaction.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_InteractionM",
+      "target_path": "target/Function_InteractionM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_InteractionM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Math",
+      "target_path": "target/Function_Math.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Math.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Metro",
+      "target_path": "target/Function_Metro.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Metro.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Misc",
+      "target_path": "target/Function_Misc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Misc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_MiscM",
+      "target_path": "target/Function_MiscM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_MiscM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Particles",
+      "target_path": "target/Function_Particles.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Particles.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Physics",
+      "target_path": "target/Function_Physics.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Physics.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Resource",
+      "target_path": "target/Function_Resource.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Resource.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Sound",
+      "target_path": "target/Function_Sound.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Sound.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Function_Time",
+      "target_path": "target/Function_Time.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Function_Time.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "GMYoga",
+      "target_path": "target/GMYoga.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/GMYoga.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "GameMaker",
+      "target_path": "target/GameMaker.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/GameMaker.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "GameMakerM",
+      "target_path": "target/GameMakerM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/GameMakerM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "GamepadM",
+      "target_path": "target/GamepadM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/GamepadM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Gamepad_Class",
+      "target_path": "target/Gamepad_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Gamepad_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "GraphicsM",
+      "target_path": "target/GraphicsM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/GraphicsM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_3D",
+      "target_path": "target/Graphics_3D.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_3D.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Bitmap32",
+      "target_path": "target/Graphics_Bitmap32.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Bitmap32.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_D3D",
+      "target_path": "target/Graphics_D3D.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_D3D.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_DisplayM",
+      "target_path": "target/Graphics_DisplayM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_DisplayM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Draw",
+      "target_path": "target/Graphics_Draw.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Draw.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_FunctionsM",
+      "target_path": "target/Graphics_FunctionsM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_FunctionsM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Perf",
+      "target_path": "target/Graphics_Perf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Perf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Support",
+      "target_path": "target/Graphics_Support.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Support.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Surface",
+      "target_path": "target/Graphics_Surface.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Surface.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Text",
+      "target_path": "target/Graphics_Text.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Text.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Texture",
+      "target_path": "target/Graphics_Texture.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Texture.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_Window",
+      "target_path": "target/Graphics_Window.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_Window.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Graphics_WindowM",
+      "target_path": "target/Graphics_WindowM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Graphics_WindowM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "IBuffer",
+      "target_path": "target/IBuffer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/IBuffer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "IO_Main",
+      "target_path": "target/IO_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/IO_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "IO_MainM",
+      "target_path": "target/IO_MainM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/IO_MainM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "IkConstraint",
+      "target_path": "target/IkConstraint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/IkConstraint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "IkConstraintData",
+      "target_path": "target/IkConstraintData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/IkConstraintData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "IniFile",
+      "target_path": "target/IniFile.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/IniFile.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "InputQuery",
+      "target_path": "target/InputQuery.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/InputQuery.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "InputQueryM",
+      "target_path": "target/InputQueryM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/InputQueryM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Instance_Class",
+      "target_path": "target/Instance_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Instance_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "JPEG_Main",
+      "target_path": "target/JPEG_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/JPEG_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Javascript",
+      "target_path": "target/Javascript.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Javascript.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "JobManager",
+      "target_path": "target/JobManager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/JobManager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Json",
+      "target_path": "target/Json.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Json.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Language_Manager",
+      "target_path": "target/Language_Manager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Language_Manager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "LoadSave",
+      "target_path": "target/LoadSave.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/LoadSave.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "LoadSaveFOpen",
+      "target_path": "target/LoadSaveFOpen.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/LoadSaveFOpen.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "MaterialsM",
+      "target_path": "target/MaterialsM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/MaterialsM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Matrix",
+      "target_path": "target/Matrix.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Matrix.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "MemoryManager",
+      "target_path": "target/MemoryManager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/MemoryManager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "MeshAttachment",
+      "target_path": "target/MeshAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/MeshAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Motion_Grid",
+      "target_path": "target/Motion_Grid.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Motion_Grid.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Motion_Potential",
+      "target_path": "target/Motion_Potential.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Motion_Potential.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Networking_Manager",
+      "target_path": "target/Networking_Manager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Networking_Manager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Node",
+      "target_path": "target/Node.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Node.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Object_Class",
+      "target_path": "target/Object_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Object_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Object_Lists",
+      "target_path": "target/Object_Lists.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Object_Lists.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Object_Main",
+      "target_path": "target/Object_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Object_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Option_Main",
+      "target_path": "target/Option_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Option_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PNG_Main",
+      "target_path": "target/PNG_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PNG_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Particle_Effect",
+      "target_path": "target/Particle_Effect.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Particle_Effect.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Particle_Main",
+      "target_path": "target/Particle_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Particle_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PathAttachment",
+      "target_path": "target/PathAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PathAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PathConstraint",
+      "target_path": "target/PathConstraint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PathConstraint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PathConstraintData",
+      "target_path": "target/PathConstraintData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PathConstraintData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Path_Class",
+      "target_path": "target/Path_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Path_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Path_Main",
+      "target_path": "target/Path_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Path_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsContactListener",
+      "target_path": "target/PhysicsContactListener.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsContactListener.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsContactStack",
+      "target_path": "target/PhysicsContactStack.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsContactStack.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsFixture_Class",
+      "target_path": "target/PhysicsFixture_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsFixture_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsJoint_Class",
+      "target_path": "target/PhysicsJoint_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsJoint_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsObject_Class",
+      "target_path": "target/PhysicsObject_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsObject_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsWorldDebugRender",
+      "target_path": "target/PhysicsWorldDebugRender.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsWorldDebugRender.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PhysicsWorld_Class",
+      "target_path": "target/PhysicsWorld_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PhysicsWorld_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PixelGrid",
+      "target_path": "target/PixelGrid.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PixelGrid.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "PointAttachment",
+      "target_path": "target/PointAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/PointAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Profiler",
+      "target_path": "target/Profiler.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Profiler.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "RegionAttachment",
+      "target_path": "target/RegionAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/RegionAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Room_Class",
+      "target_path": "target/Room_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Room_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Room_Draw",
+      "target_path": "target/Room_Draw.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Room_Draw.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Room_Layers",
+      "target_path": "target/Room_Layers.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Room_Layers.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Room_Main",
+      "target_path": "target/Room_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Room_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Command",
+      "target_path": "target/Run_Command.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Command.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Global",
+      "target_path": "target/Run_Global.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Global.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Handle_Collision",
+      "target_path": "target/Run_Handle_Collision.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Handle_Collision.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Handle_Interaction",
+      "target_path": "target/Run_Handle_Interaction.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Handle_Interaction.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Handle_InteractionM",
+      "target_path": "target/Run_Handle_InteractionM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Handle_InteractionM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Handle_Others",
+      "target_path": "target/Run_Handle_Others.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Handle_Others.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_LoadSave",
+      "target_path": "target/Run_LoadSave.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_LoadSave.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Main",
+      "target_path": "target/Run_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Run_Score",
+      "target_path": "target/Run_Score.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Run_Score.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Runner_Form",
+      "target_path": "target/Runner_Form.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Runner_Form.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Runner_FormM",
+      "target_path": "target/Runner_FormM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Runner_FormM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Script_Main",
+      "target_path": "target/Script_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Script_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Sequence",
+      "target_path": "target/Sequence.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Sequence.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ShaderM",
+      "target_path": "target/ShaderM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ShaderM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Shader_Main",
+      "target_path": "target/Shader_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Shader_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Skeleton",
+      "target_path": "target/Skeleton.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Skeleton.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "SkeletonAnimation_Class",
+      "target_path": "target/SkeletonAnimation_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonAnimation_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "SkeletonBounds",
+      "target_path": "target/SkeletonBounds.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonBounds.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "SkeletonClipping",
+      "target_path": "target/SkeletonClipping.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonClipping.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "SkeletonData",
+      "target_path": "target/SkeletonData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "SkeletonJson",
+      "target_path": "target/SkeletonJson.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/SkeletonJson.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Skin",
+      "target_path": "target/Skin.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Skin.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Slot",
+      "target_path": "target/Slot.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Slot.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "SlotData",
+      "target_path": "target/SlotData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/SlotData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Sprite_Class",
+      "target_path": "target/Sprite_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Sprite_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Sprite_Main",
+      "target_path": "target/Sprite_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Sprite_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "StateManagerM",
+      "target_path": "target/StateManagerM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/StateManagerM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "StlLCMapStringA",
+      "target_path": "target/StlLCMapStringA.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/StlLCMapStringA.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_Color",
+      "target_path": "target/Support_Color.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_Color.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_DLL",
+      "target_path": "target/Support_DLL.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_DLL.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_DLLM",
+      "target_path": "target/Support_DLLM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_DLLM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_Data_Structures",
+      "target_path": "target/Support_Data_Structures.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_Data_Structures.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_FileM",
+      "target_path": "target/Support_FileM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_FileM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_MD5",
+      "target_path": "target/Support_MD5.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_MD5.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_SHA1",
+      "target_path": "target/Support_SHA1.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_SHA1.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_Stream",
+      "target_path": "target/Support_Stream.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_Stream.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_Timing",
+      "target_path": "target/Support_Timing.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_Timing.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_Various",
+      "target_path": "target/Support_Various.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_Various.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Support_VariousM",
+      "target_path": "target/Support_VariousM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Support_VariousM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TBitmap",
+      "target_path": "target/TBitmap.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TBitmap.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TFormM",
+      "target_path": "target/TFormM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TFormM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TagManager",
+      "target_path": "target/TagManager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TagManager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TexturesM",
+      "target_path": "target/TexturesM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TexturesM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ThreadM",
+      "target_path": "target/ThreadM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ThreadM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TimeLine_Class",
+      "target_path": "target/TimeLine_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TimeLine_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TimeLine_Main",
+      "target_path": "target/TimeLine_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TimeLine_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Time_Main",
+      "target_path": "target/Time_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Time_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Time_Source",
+      "target_path": "target/Time_Source.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Time_Source.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TransformConstraint",
+      "target_path": "target/TransformConstraint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TransformConstraint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "TransformConstraintData",
+      "target_path": "target/TransformConstraintData.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/TransformConstraintData.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Triangulator",
+      "target_path": "target/Triangulator.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Triangulator.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "UILayer",
+      "target_path": "target/UILayer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/UILayer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "UtilsM",
+      "target_path": "target/UtilsM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/UtilsM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "VMBuffer",
+      "target_path": "target/VMBuffer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/VMBuffer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "VM_Disasm",
+      "target_path": "target/VM_Disasm.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/VM_Disasm.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "VM_Exec",
+      "target_path": "target/VM_Exec.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/VM_Exec.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Variable_BuiltIn",
+      "target_path": "target/Variable_BuiltIn.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Variable_BuiltIn.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Variable_Main",
+      "target_path": "target/Variable_Main.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Variable_Main.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "VertexAttachment",
+      "target_path": "target/VertexAttachment.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/VertexAttachment.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "VertexBuilderM",
+      "target_path": "target/VertexBuilderM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/VertexBuilderM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Vertex_Class",
+      "target_path": "target/Vertex_Class.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Vertex_Class.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "Vertex_Manager",
+      "target_path": "target/Vertex_Manager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/Vertex_Manager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "VideoPlayer",
+      "target_path": "target/VideoPlayer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/VideoPlayer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "WebSocketClient",
+      "target_path": "target/WebSocketClient.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/WebSocketClient.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "WinHTTPWebSocketClient",
+      "target_path": "target/WinHTTPWebSocketClient.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/WinHTTPWebSocketClient.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "YGNode",
+      "target_path": "target/YGNode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/YGNode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "YGNodeStyle",
+      "target_path": "target/YGNodeStyle.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/YGNodeStyle.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "YoYo_Functions",
+      "target_path": "target/YoYo_Functions.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/YoYo_Functions.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "YoYo_FunctionsM",
+      "target_path": "target/YoYo_FunctionsM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/YoYo_FunctionsM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_ctype",
+      "target_path": "target/_ctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_ctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_fenvutils",
+      "target_path": "target/_fenvutils.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_fenvutils.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_filbuf",
+      "target_path": "target/_filbuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_filbuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_file",
+      "target_path": "target/_file.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_file.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_flsbuf",
+      "target_path": "target/_flsbuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_flsbuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_fptostr",
+      "target_path": "target/_fptostr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_fptostr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_freebuf",
+      "target_path": "target/_freebuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_freebuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_getbuf",
+      "target_path": "target/_getbuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_getbuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_sftbuf",
+      "target_path": "target/_sftbuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_sftbuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_test",
+      "target_path": "target/_test.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_test.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_tolower",
+      "target_path": "target/_tolower.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_tolower.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_toupper",
+      "target_path": "target/_toupper.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_toupper.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "_wctype",
+      "target_path": "target/_wctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/_wctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "abort",
+      "target_path": "target/abort.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/abort.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "access",
+      "target_path": "target/access.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/access.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "acos",
+      "target_path": "target/acos.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/acos.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "acosf",
+      "target_path": "target/acosf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/acosf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "adler32",
+      "target_path": "target/adler32.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/adler32.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "amdsecgs",
+      "target_path": "target/amdsecgs.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/amdsecgs.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "argv_data",
+      "target_path": "target/argv_data.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/argv_data.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "argv_mode",
+      "target_path": "target/argv_mode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/argv_mode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "argv_parsing",
+      "target_path": "target/argv_parsing.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/argv_parsing.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "argv_wildcards",
+      "target_path": "target/argv_wildcards.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/argv_wildcards.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "argv_winmain",
+      "target_path": "target/argv_winmain.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/argv_winmain.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "arraylist",
+      "target_path": "target/arraylist.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/arraylist.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "asin",
+      "target_path": "target/asin.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/asin.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "atan",
+      "target_path": "target/atan.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/atan.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "atan2",
+      "target_path": "target/atan2.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/atan2.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "atan2f",
+      "target_path": "target/atan2f.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/atan2f.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "atof",
+      "target_path": "target/atof.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/atof.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "atox",
+      "target_path": "target/atox.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/atox.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2BlockAllocator",
+      "target_path": "target/b2BlockAllocator.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2BlockAllocator.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Body",
+      "target_path": "target/b2Body.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Body.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2BroadPhase",
+      "target_path": "target/b2BroadPhase.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2BroadPhase.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ChainAndCircleContact",
+      "target_path": "target/b2ChainAndCircleContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ChainAndCircleContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ChainAndPolygonContact",
+      "target_path": "target/b2ChainAndPolygonContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ChainAndPolygonContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ChainShape",
+      "target_path": "target/b2ChainShape.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ChainShape.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2CircleContact",
+      "target_path": "target/b2CircleContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2CircleContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2CircleShape",
+      "target_path": "target/b2CircleShape.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2CircleShape.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2CollideCircle",
+      "target_path": "target/b2CollideCircle.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2CollideCircle.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2CollideEdge",
+      "target_path": "target/b2CollideEdge.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2CollideEdge.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2CollidePolygon",
+      "target_path": "target/b2CollidePolygon.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2CollidePolygon.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Collision",
+      "target_path": "target/b2Collision.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Collision.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Contact",
+      "target_path": "target/b2Contact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Contact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ContactManager",
+      "target_path": "target/b2ContactManager.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ContactManager.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ContactSolver",
+      "target_path": "target/b2ContactSolver.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ContactSolver.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Distance",
+      "target_path": "target/b2Distance.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Distance.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2DistanceJoint",
+      "target_path": "target/b2DistanceJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2DistanceJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2DynamicTree",
+      "target_path": "target/b2DynamicTree.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2DynamicTree.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2EdgeAndCircleContact",
+      "target_path": "target/b2EdgeAndCircleContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2EdgeAndCircleContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2EdgeAndPolygonContact",
+      "target_path": "target/b2EdgeAndPolygonContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2EdgeAndPolygonContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2EdgeShape",
+      "target_path": "target/b2EdgeShape.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2EdgeShape.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Fixture",
+      "target_path": "target/b2Fixture.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Fixture.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2FrictionJoint",
+      "target_path": "target/b2FrictionJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2FrictionJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2GearJoint",
+      "target_path": "target/b2GearJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2GearJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Island",
+      "target_path": "target/b2Island.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Island.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Joint",
+      "target_path": "target/b2Joint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Joint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Math",
+      "target_path": "target/b2Math.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Math.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2MotorJoint",
+      "target_path": "target/b2MotorJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2MotorJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2MouseJoint",
+      "target_path": "target/b2MouseJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2MouseJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ParticleGroup",
+      "target_path": "target/b2ParticleGroup.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ParticleGroup.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2ParticleSystem",
+      "target_path": "target/b2ParticleSystem.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2ParticleSystem.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2PolygonAndCircleContact",
+      "target_path": "target/b2PolygonAndCircleContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2PolygonAndCircleContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2PolygonContact",
+      "target_path": "target/b2PolygonContact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2PolygonContact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2PolygonShape",
+      "target_path": "target/b2PolygonShape.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2PolygonShape.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2PrismaticJoint",
+      "target_path": "target/b2PrismaticJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2PrismaticJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2PulleyJoint",
+      "target_path": "target/b2PulleyJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2PulleyJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2RevoluteJoint",
+      "target_path": "target/b2RevoluteJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2RevoluteJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2RopeJoint",
+      "target_path": "target/b2RopeJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2RopeJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2Settings",
+      "target_path": "target/b2Settings.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2Settings.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2StackAllocator",
+      "target_path": "target/b2StackAllocator.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2StackAllocator.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2TimeOfImpact",
+      "target_path": "target/b2TimeOfImpact.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2TimeOfImpact.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2VoronoiDiagram",
+      "target_path": "target/b2VoronoiDiagram.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2VoronoiDiagram.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2WeldJoint",
+      "target_path": "target/b2WeldJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2WeldJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2WheelJoint",
+      "target_path": "target/b2WheelJoint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2WheelJoint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2World",
+      "target_path": "target/b2World.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2World.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "b2WorldCallbacks",
+      "target_path": "target/b2WorldCallbacks.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/b2WorldCallbacks.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "bsearch",
+      "target_path": "target/bsearch.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/bsearch.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "c16rtomb",
+      "target_path": "target/c16rtomb.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/c16rtomb.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "c32rtomb",
+      "target_path": "target/c32rtomb.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/c32rtomb.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "calloc",
+      "target_path": "target/calloc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/calloc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "calloc_base",
+      "target_path": "target/calloc_base.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/calloc_base.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ceil",
+      "target_path": "target/ceil.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ceil.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ceilf",
+      "target_path": "target/ceilf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ceilf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cerr",
+      "target_path": "target/cerr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cerr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cfout",
+      "target_path": "target/cfout.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cfout.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "chandler_noexcept",
+      "target_path": "target/chandler_noexcept.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/chandler_noexcept.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "checkcfg",
+      "target_path": "target/checkcfg.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/checkcfg.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "chkstk",
+      "target_path": "target/chkstk.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/chkstk.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "chsize",
+      "target_path": "target/chsize.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/chsize.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "clearerr",
+      "target_path": "target/clearerr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/clearerr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "close",
+      "target_path": "target/close.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/close.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "closeall",
+      "target_path": "target/closeall.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/closeall.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "commit",
+      "target_path": "target/commit.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/commit.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "commit_mode",
+      "target_path": "target/commit_mode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/commit_mode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "common_utf8",
+      "target_path": "target/common_utf8.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/common_utf8.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "comparestringa",
+      "target_path": "target/comparestringa.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/comparestringa.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "comparestringw",
+      "target_path": "target/comparestringw.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/comparestringw.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cond",
+      "target_path": "target/cond.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cond.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "contrlfp",
+      "target_path": "target/contrlfp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/contrlfp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cos",
+      "target_path": "target/cos.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cos.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cosf",
+      "target_path": "target/cosf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cosf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cout",
+      "target_path": "target/cout.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cout.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cpu_disp",
+      "target_path": "target/cpu_disp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cpu_disp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "crc32",
+      "target_path": "target/crc32.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/crc32.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "creat",
+      "target_path": "target/creat.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/creat.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cthread",
+      "target_path": "target/cthread.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cthread.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ctype",
+      "target_path": "target/ctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "cvt",
+      "target_path": "target/cvt.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/cvt.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "default_local_stdio_options",
+      "target_path": "target/default_local_stdio_options.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/default_local_stdio_options.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "deflate",
+      "target_path": "target/deflate.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/deflate.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "delayhlp",
+      "target_path": "target/delayhlp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/delayhlp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "denormal_control",
+      "target_path": "target/denormal_control.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/denormal_control.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "dgif_lib",
+      "target_path": "target/dgif_lib.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/dgif_lib.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "dispatchcfg",
+      "target_path": "target/dispatchcfg.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/dispatchcfg.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "drive",
+      "target_path": "target/drive.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/drive.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "dyn_tls_dtor",
+      "target_path": "target/dyn_tls_dtor.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/dyn_tls_dtor.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "dyn_tls_init",
+      "target_path": "target/dyn_tls_init.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/dyn_tls_init.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "egif_lib",
+      "target_path": "target/egif_lib.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/egif_lib.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ehhelpers",
+      "target_path": "target/ehhelpers.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ehhelpers.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ehstate",
+      "target_path": "target/ehstate.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ehstate.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ehvecdtr",
+      "target_path": "target/ehvecdtr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ehvecdtr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "env_mode",
+      "target_path": "target/env_mode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/env_mode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "environment_initialization",
+      "target_path": "target/environment_initialization.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/environment_initialization.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "errno",
+      "target_path": "target/errno.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/errno.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "exception_filter",
+      "target_path": "target/exception_filter.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/exception_filter.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "exe_winmain",
+      "target_path": "target/exe_winmain.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/exe_winmain.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "exit",
+      "target_path": "target/exit.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/exit.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "exp",
+      "target_path": "target/exp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/exp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "exp_special",
+      "target_path": "target/exp_special.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/exp_special.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "expf",
+      "target_path": "target/expf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/expf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fclose",
+      "target_path": "target/fclose.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fclose.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fdopen",
+      "target_path": "target/fdopen.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fdopen.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fegetenv",
+      "target_path": "target/fegetenv.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fegetenv.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fegetexceptflag",
+      "target_path": "target/fegetexceptflag.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fegetexceptflag.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fegetround",
+      "target_path": "target/fegetround.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fegetround.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "feholdexcept",
+      "target_path": "target/feholdexcept.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/feholdexcept.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "feoferr",
+      "target_path": "target/feoferr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/feoferr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fesetenv",
+      "target_path": "target/fesetenv.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fesetenv.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fesetexceptflag",
+      "target_path": "target/fesetexceptflag.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fesetexceptflag.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fetestexcept",
+      "target_path": "target/fetestexcept.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fetestexcept.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fflush",
+      "target_path": "target/fflush.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fflush.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fgetc",
+      "target_path": "target/fgetc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fgetc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fgetpos",
+      "target_path": "target/fgetpos.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fgetpos.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "file_mode",
+      "target_path": "target/file_mode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/file_mode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fileno",
+      "target_path": "target/fileno.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fileno.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "findfile",
+      "target_path": "target/findfile.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/findfile.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "floor",
+      "target_path": "target/floor.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/floor.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "floorceil_sse41",
+      "target_path": "target/floorceil_sse41.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/floorceil_sse41.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "floorf",
+      "target_path": "target/floorf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/floorf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fma3_available",
+      "target_path": "target/fma3_available.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fma3_available.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fmax",
+      "target_path": "target/fmax.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fmax.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fmaxf",
+      "target_path": "target/fmaxf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fmaxf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fmin",
+      "target_path": "target/fmin.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fmin.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fminf",
+      "target_path": "target/fminf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fminf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fmod",
+      "target_path": "target/fmod.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fmod.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fmodf",
+      "target_path": "target/fmodf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fmodf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fopen",
+      "target_path": "target/fopen.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fopen.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fpctrl",
+      "target_path": "target/fpctrl.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fpctrl.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fpexcept",
+      "target_path": "target/fpexcept.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fpexcept.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fputc",
+      "target_path": "target/fputc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fputc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fputs",
+      "target_path": "target/fputs.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fputs.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fputwc",
+      "target_path": "target/fputwc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fputwc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "frame",
+      "target_path": "target/frame.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/frame.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fread",
+      "target_path": "target/fread.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fread.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "free",
+      "target_path": "target/free.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/free.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "free_base",
+      "target_path": "target/free_base.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/free_base.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "frexp",
+      "target_path": "target/frexp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/frexp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fseek",
+      "target_path": "target/fseek.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fseek.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fsetpos",
+      "target_path": "target/fsetpos.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fsetpos.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ftell",
+      "target_path": "target/ftell.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ftell.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fullpath",
+      "target_path": "target/fullpath.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fullpath.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "fwrite",
+      "target_path": "target/fwrite.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/fwrite.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "game_input",
+      "target_path": "target/game_input.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/game_input.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "get_environment_from_os",
+      "target_path": "target/get_environment_from_os.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/get_environment_from_os.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "get_qualified_locale",
+      "target_path": "target/get_qualified_locale.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/get_qualified_locale.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getcwd",
+      "target_path": "target/getcwd.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getcwd.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getenv",
+      "target_path": "target/getenv.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getenv.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getlocaleinfoa",
+      "target_path": "target/getlocaleinfoa.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getlocaleinfoa.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getmodulefilenamea",
+      "target_path": "target/getmodulefilenamea.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getmodulefilenamea.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getqloc_downlevel",
+      "target_path": "target/getqloc_downlevel.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getqloc_downlevel.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getstringtypea",
+      "target_path": "target/getstringtypea.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getstringtypea.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "getstringtypew",
+      "target_path": "target/getstringtypew.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/getstringtypew.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gifalloc",
+      "target_path": "target/gifalloc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gifalloc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gmtime",
+      "target_path": "target/gmtime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gmtime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gs_report",
+      "target_path": "target/gs_report.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gs_report.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gs_support",
+      "target_path": "target/gs_support.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gs_support.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gshandler",
+      "target_path": "target/gshandler.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gshandler.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gshandlereh",
+      "target_path": "target/gshandlereh.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gshandlereh.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gshandlereh4",
+      "target_path": "target/gshandlereh4.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gshandlereh4.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "gshandlerseh",
+      "target_path": "target/gshandlerseh.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/gshandlerseh.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "guard_dispatch",
+      "target_path": "target/guard_dispatch.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/guard_dispatch.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "guard_support",
+      "target_path": "target/guard_support.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/guard_support.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "guard_xfg_dispatch",
+      "target_path": "target/guard_xfg_dispatch.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/guard_xfg_dispatch.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "handlers",
+      "target_path": "target/handlers.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/handlers.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "heap_handle",
+      "target_path": "target/heap_handle.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/heap_handle.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "heapwalk",
+      "target_path": "target/heapwalk.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/heapwalk.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ieee",
+      "target_path": "target/ieee.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ieee.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ieeemisc",
+      "target_path": "target/ieeemisc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ieeemisc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "imgui",
+      "target_path": "target/imgui.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/imgui.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "imgui_draw",
+      "target_path": "target/imgui_draw.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/imgui_draw.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "imgui_tables",
+      "target_path": "target/imgui_tables.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/imgui_tables.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "imgui_widgets",
+      "target_path": "target/imgui_widgets.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/imgui_widgets.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "implot",
+      "target_path": "target/implot.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/implot.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "implot_items",
+      "target_path": "target/implot_items.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/implot_items.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "inffast",
+      "target_path": "target/inffast.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/inffast.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "inflate",
+      "target_path": "target/inflate.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/inflate.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "inftrees",
+      "target_path": "target/inftrees.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/inftrees.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initcon",
+      "target_path": "target/initcon.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initcon.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initctype",
+      "target_path": "target/initctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initialization",
+      "target_path": "target/initialization.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initialization.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initmon",
+      "target_path": "target/initmon.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initmon.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initnum",
+      "target_path": "target/initnum.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initnum.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initsect",
+      "target_path": "target/initsect.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initsect.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "initterm",
+      "target_path": "target/initterm.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/initterm.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "inittime",
+      "target_path": "target/inittime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/inittime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "input",
+      "target_path": "target/input.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/input.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "input_queue",
+      "target_path": "target/input_queue.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/input_queue.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "invalid_parameter",
+      "target_path": "target/invalid_parameter.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/invalid_parameter.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "invalid_parameter_handler",
+      "target_path": "target/invalid_parameter_handler.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/invalid_parameter_handler.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ioinit",
+      "target_path": "target/ioinit.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ioinit.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ios",
+      "target_path": "target/ios.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ios.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "iosptrs",
+      "target_path": "target/iosptrs.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/iosptrs.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "isatty",
+      "target_path": "target/isatty.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/isatty.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "isctype",
+      "target_path": "target/isctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/isctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ismbbyte",
+      "target_path": "target/ismbbyte.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ismbbyte.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ismbstr",
+      "target_path": "target/ismbstr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ismbstr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "iswctype",
+      "target_path": "target/iswctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/iswctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jbcxrval",
+      "target_path": "target/jbcxrval.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jbcxrval.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdapimin",
+      "target_path": "target/jdapimin.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdapimin.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdapistd",
+      "target_path": "target/jdapistd.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdapistd.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdcoefct",
+      "target_path": "target/jdcoefct.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdcoefct.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdcolor",
+      "target_path": "target/jdcolor.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdcolor.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jddctmgr",
+      "target_path": "target/jddctmgr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jddctmgr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdhuff",
+      "target_path": "target/jdhuff.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdhuff.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdinput",
+      "target_path": "target/jdinput.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdinput.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdmainct",
+      "target_path": "target/jdmainct.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdmainct.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdmarker",
+      "target_path": "target/jdmarker.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdmarker.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdmaster",
+      "target_path": "target/jdmaster.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdmaster.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdmerge",
+      "target_path": "target/jdmerge.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdmerge.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdphuff",
+      "target_path": "target/jdphuff.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdphuff.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdpostct",
+      "target_path": "target/jdpostct.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdpostct.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jdsample",
+      "target_path": "target/jdsample.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jdsample.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jerror",
+      "target_path": "target/jerror.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jerror.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jidctflt",
+      "target_path": "target/jidctflt.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jidctflt.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jidctfst",
+      "target_path": "target/jidctfst.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jidctfst.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jidctint",
+      "target_path": "target/jidctint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jidctint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jidctred",
+      "target_path": "target/jidctred.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jidctred.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jmemmgr",
+      "target_path": "target/jmemmgr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jmemmgr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jmpuwind",
+      "target_path": "target/jmpuwind.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jmpuwind.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jquant1",
+      "target_path": "target/jquant1.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jquant1.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "jquant2",
+      "target_path": "target/jquant2.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/jquant2.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "json_object",
+      "target_path": "target/json_object.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/json_object.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "json_tokener",
+      "target_path": "target/json_tokener.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/json_tokener.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "json_util",
+      "target_path": "target/json_util.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/json_util.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "lcidtoname_downlevel",
+      "target_path": "target/lcidtoname_downlevel.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/lcidtoname_downlevel.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "lcmapstringa",
+      "target_path": "target/lcmapstringa.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/lcmapstringa.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "lcmapstringw",
+      "target_path": "target/lcmapstringw.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/lcmapstringw.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "libm_error",
+      "target_path": "target/libm_error.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/libm_error.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "linkhash",
+      "target_path": "target/linkhash.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/linkhash.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "llrint",
+      "target_path": "target/llrint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/llrint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "locale0",
+      "target_path": "target/locale0.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/locale0.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "locale_refcounting",
+      "target_path": "target/locale_refcounting.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/locale_refcounting.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "locale_update",
+      "target_path": "target/locale_update.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/locale_update.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "localeconv",
+      "target_path": "target/localeconv.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/localeconv.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "localtime",
+      "target_path": "target/localtime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/localtime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "locks",
+      "target_path": "target/locks.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/locks.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "loctotime",
+      "target_path": "target/loctotime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/loctotime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "log",
+      "target_path": "target/log.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/log.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "log10",
+      "target_path": "target/log10.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/log10.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "log10f",
+      "target_path": "target/log10f.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/log10f.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "log_special",
+      "target_path": "target/log_special.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/log_special.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "logf",
+      "target_path": "target/logf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/logf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "longjmp",
+      "target_path": "target/longjmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/longjmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "longjmpc",
+      "target_path": "target/longjmpc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/longjmpc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "lrintf",
+      "target_path": "target/lrintf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/lrintf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "lseek",
+      "target_path": "target/lseek.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/lseek.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "malloc",
+      "target_path": "target/malloc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/malloc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "malloc_base",
+      "target_path": "target/malloc_base.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/malloc_base.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "math_err",
+      "target_path": "target/math_err.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/math_err.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "matherr",
+      "target_path": "target/matherr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/matherr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "matherr_detection",
+      "target_path": "target/matherr_detection.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/matherr_detection.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mbctype",
+      "target_path": "target/mbctype.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mbctype.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mbrtoc32",
+      "target_path": "target/mbrtoc32.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mbrtoc32.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mbrtowc",
+      "target_path": "target/mbrtowc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mbrtowc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mbsdec",
+      "target_path": "target/mbsdec.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mbsdec.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mbstowcs",
+      "target_path": "target/mbstowcs.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mbstowcs.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mbtowc",
+      "target_path": "target/mbtowc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mbtowc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "memchr",
+      "target_path": "target/memchr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/memchr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "memcmp",
+      "target_path": "target/memcmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/memcmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "memcpy",
+      "target_path": "target/memcpy.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/memcpy.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "memset",
+      "target_path": "target/memset.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/memset.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mkdir",
+      "target_path": "target/mkdir.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mkdir.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mktemp",
+      "target_path": "target/mktemp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mktemp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mktime",
+      "target_path": "target/mktime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mktime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "modf",
+      "target_path": "target/modf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/modf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "modff",
+      "target_path": "target/modff.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/modff.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "msize",
+      "target_path": "target/msize.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/msize.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "multibyte_initializer",
+      "target_path": "target/multibyte_initializer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/multibyte_initializer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "multibytetowidechar",
+      "target_path": "target/multibytetowidechar.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/multibytetowidechar.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "mutex",
+      "target_path": "target/mutex.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/mutex.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "nan",
+      "target_path": "target/nan.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/nan.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "nanf",
+      "target_path": "target/nanf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/nanf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ncommode",
+      "target_path": "target/ncommode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ncommode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "new_handler",
+      "target_path": "target/new_handler.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/new_handler.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "new_mode",
+      "target_path": "target/new_mode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/new_mode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "notify",
+      "target_path": "target/notify.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/notify.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "onexit",
+      "target_path": "target/onexit.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/onexit.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "open",
+      "target_path": "target/open.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/open.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "openfile",
+      "target_path": "target/openfile.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/openfile.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "osfinfo",
+      "target_path": "target/osfinfo.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/osfinfo.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "output",
+      "target_path": "target/output.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/output.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "p2p",
+      "target_path": "target/p2p.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/p2p.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "peb_access",
+      "target_path": "target/peb_access.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/peb_access.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "per_thread_data",
+      "target_path": "target/per_thread_data.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/per_thread_data.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pesect",
+      "target_path": "target/pesect.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pesect.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "png",
+      "target_path": "target/png.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/png.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngerror",
+      "target_path": "target/pngerror.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngerror.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngmem",
+      "target_path": "target/pngmem.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngmem.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngread",
+      "target_path": "target/pngread.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngread.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngrio",
+      "target_path": "target/pngrio.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngrio.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngrtran",
+      "target_path": "target/pngrtran.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngrtran.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngrutil",
+      "target_path": "target/pngrutil.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngrutil.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngset",
+      "target_path": "target/pngset.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngset.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngtrans",
+      "target_path": "target/pngtrans.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngtrans.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngwio",
+      "target_path": "target/pngwio.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngwio.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngwrite",
+      "target_path": "target/pngwrite.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngwrite.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngwtran",
+      "target_path": "target/pngwtran.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngwtran.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pngwutil",
+      "target_path": "target/pngwutil.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pngwutil.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pow",
+      "target_path": "target/pow.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pow.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "pow_special",
+      "target_path": "target/pow_special.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/pow_special.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "powf",
+      "target_path": "target/powf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/powf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "printbuf",
+      "target_path": "target/printbuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/printbuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "printf_count_output",
+      "target_path": "target/printf_count_output.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/printf_count_output.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "purevirt",
+      "target_path": "target/purevirt.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/purevirt.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "putwch",
+      "target_path": "target/putwch.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/putwch.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "qsort",
+      "target_path": "target/qsort.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/qsort.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rand",
+      "target_path": "target/rand.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rand.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "read",
+      "target_path": "target/read.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/read.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "realloc",
+      "target_path": "target/realloc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/realloc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "realloc_base",
+      "target_path": "target/realloc_base.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/realloc_base.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "recalloc",
+      "target_path": "target/recalloc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/recalloc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "remainder_piby2_forasm",
+      "target_path": "target/remainder_piby2_forasm.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/remainder_piby2_forasm.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "remainder_piby2_forfma3",
+      "target_path": "target/remainder_piby2_forfma3.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/remainder_piby2_forfma3.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "remainder_piby2f_forasm",
+      "target_path": "target/remainder_piby2f_forasm.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/remainder_piby2f_forasm.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "remainder_piby2f_forc",
+      "target_path": "target/remainder_piby2f_forc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/remainder_piby2f_forc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rename",
+      "target_path": "target/rename.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rename.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "report_runtime_error",
+      "target_path": "target/report_runtime_error.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/report_runtime_error.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rint",
+      "target_path": "target/rint.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rint.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rintf",
+      "target_path": "target/rintf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rintf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "riscchandler",
+      "target_path": "target/riscchandler.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/riscchandler.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "risctrnsctrl",
+      "target_path": "target/risctrnsctrl.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/risctrnsctrl.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_dead_refs_check",
+      "target_path": "target/rollback_dead_refs_check.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_dead_refs_check.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_deserialize",
+      "target_path": "target/rollback_deserialize.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_deserialize.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_dump_diff",
+      "target_path": "target/rollback_dump_diff.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_dump_diff.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_functions",
+      "target_path": "target/rollback_functions.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_functions.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_input",
+      "target_path": "target/rollback_input.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_input.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_managed",
+      "target_path": "target/rollback_managed.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_managed.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_runtime",
+      "target_path": "target/rollback_runtime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_runtime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "rollback_serialize",
+      "target_path": "target/rollback_serialize.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/rollback_serialize.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "round",
+      "target_path": "target/round.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/round.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "setenv",
+      "target_path": "target/setenv.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/setenv.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "setenvironmentvariablea",
+      "target_path": "target/setenvironmentvariablea.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/setenvironmentvariablea.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "setjmp",
+      "target_path": "target/setjmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/setjmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "setlocale",
+      "target_path": "target/setlocale.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/setlocale.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "setmode",
+      "target_path": "target/setmode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/setmode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "setvbuf",
+      "target_path": "target/setvbuf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/setvbuf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "shared_initialization",
+      "target_path": "target/shared_initialization.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/shared_initialization.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "signal",
+      "target_path": "target/signal.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/signal.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "sin",
+      "target_path": "target/sin.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/sin.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "sincos_special",
+      "target_path": "target/sincos_special.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/sincos_special.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "sinf",
+      "target_path": "target/sinf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/sinf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "single_player",
+      "target_path": "target/single_player.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/single_player.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "splitpath",
+      "target_path": "target/splitpath.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/splitpath.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "sqrt",
+      "target_path": "target/sqrt.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/sqrt.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "sqrtf",
+      "target_path": "target/sqrtf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/sqrtf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "stat",
+      "target_path": "target/stat.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/stat.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "std_exception",
+      "target_path": "target/std_exception.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/std_exception.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "std_type_info",
+      "target_path": "target/std_type_info.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/std_type_info.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strchr",
+      "target_path": "target/strchr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strchr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strcmp",
+      "target_path": "target/strcmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strcmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strcpy_s",
+      "target_path": "target/strcpy_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strcpy_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strcspn",
+      "target_path": "target/strcspn.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strcspn.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strdup",
+      "target_path": "target/strdup.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strdup.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "stream",
+      "target_path": "target/stream.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/stream.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strftime",
+      "target_path": "target/strftime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strftime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "stricmp",
+      "target_path": "target/stricmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/stricmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strncat",
+      "target_path": "target/strncat.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strncat.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strncmp",
+      "target_path": "target/strncmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strncmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strncnt",
+      "target_path": "target/strncnt.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strncnt.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strncpy",
+      "target_path": "target/strncpy.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strncpy.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strncpy_s",
+      "target_path": "target/strncpy_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strncpy_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strnicmp",
+      "target_path": "target/strnicmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strnicmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strnicol",
+      "target_path": "target/strnicol.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strnicol.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strnlen",
+      "target_path": "target/strnlen.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strnlen.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strpbrk",
+      "target_path": "target/strpbrk.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strpbrk.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strrchr",
+      "target_path": "target/strrchr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strrchr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strstr",
+      "target_path": "target/strstr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strstr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strtod",
+      "target_path": "target/strtod.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strtod.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strtok",
+      "target_path": "target/strtok.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strtok.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strtok_s",
+      "target_path": "target/strtok_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strtok_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "strtox",
+      "target_path": "target/strtox.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/strtox.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "sync",
+      "target_path": "target/sync.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/sync.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "synctest",
+      "target_path": "target/synctest.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/synctest.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "syserror",
+      "target_path": "target/syserror.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/syserror.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "tan",
+      "target_path": "target/tan.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/tan.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "tanf",
+      "target_path": "target/tanf.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/tanf.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "terminate",
+      "target_path": "target/terminate.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/terminate.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "thread",
+      "target_path": "target/thread.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/thread.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "thread0",
+      "target_path": "target/thread0.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/thread0.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "thread_locale",
+      "target_path": "target/thread_locale.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/thread_locale.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "thread_safe_statics",
+      "target_path": "target/thread_safe_statics.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/thread_safe_statics.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "throw",
+      "target_path": "target/throw.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/throw.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "time",
+      "target_path": "target/time.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/time.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "timeset",
+      "target_path": "target/timeset.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/timeset.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "tncleanup",
+      "target_path": "target/tncleanup.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/tncleanup.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "tolower_toupper",
+      "target_path": "target/tolower_toupper.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/tolower_toupper.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "towlower",
+      "target_path": "target/towlower.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/towlower.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "towupper",
+      "target_path": "target/towupper.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/towupper.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "trees",
+      "target_path": "target/trees.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/trees.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "txtmode",
+      "target_path": "target/txtmode.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/txtmode.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "tzset",
+      "target_path": "target/tzset.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/tzset.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ucrt_detection",
+      "target_path": "target/ucrt_detection.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ucrt_detection.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "uncaught_exception",
+      "target_path": "target/uncaught_exception.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/uncaught_exception.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "ungetc",
+      "target_path": "target/ungetc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/ungetc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "unlink",
+      "target_path": "target/unlink.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/unlink.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "userapi",
+      "target_path": "target/userapi.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/userapi.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "utility",
+      "target_path": "target/utility.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/utility.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "utility_desktop",
+      "target_path": "target/utility_desktop.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/utility_desktop.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "vector_algorithms",
+      "target_path": "target/vector_algorithms.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/vector_algorithms.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "waccess",
+      "target_path": "target/waccess.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/waccess.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wallpaper_functions",
+      "target_path": "target/wallpaper_functions.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wallpaper_functions.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wallpaper_network",
+      "target_path": "target/wallpaper_network.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wallpaper_network.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wchmod",
+      "target_path": "target/wchmod.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wchmod.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcrtomb",
+      "target_path": "target/wcrtomb.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcrtomb.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcscat_s",
+      "target_path": "target/wcscat_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcscat_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcschr",
+      "target_path": "target/wcschr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcschr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcscmpc",
+      "target_path": "target/wcscmpc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcscmpc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcscpy_s",
+      "target_path": "target/wcscpy_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcscpy_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcscspn",
+      "target_path": "target/wcscspn.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcscspn.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsdup",
+      "target_path": "target/wcsdup.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsdup.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsftime",
+      "target_path": "target/wcsftime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsftime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsicmp",
+      "target_path": "target/wcsicmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsicmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsncat",
+      "target_path": "target/wcsncat.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsncat.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsncat_s",
+      "target_path": "target/wcsncat_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsncat_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsncmp",
+      "target_path": "target/wcsncmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsncmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsncpy",
+      "target_path": "target/wcsncpy.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsncpy.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsncpy_s",
+      "target_path": "target/wcsncpy_s.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsncpy_s.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsnicmp",
+      "target_path": "target/wcsnicmp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsnicmp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsnicol",
+      "target_path": "target/wcsnicol.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsnicol.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcspbrk",
+      "target_path": "target/wcspbrk.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcspbrk.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsrchr",
+      "target_path": "target/wcsrchr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsrchr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcsstr",
+      "target_path": "target/wcsstr.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcsstr.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wcstombs",
+      "target_path": "target/wcstombs.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wcstombs.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wctomb",
+      "target_path": "target/wctomb.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wctomb.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "widechartomultibyte",
+      "target_path": "target/widechartomultibyte.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/widechartomultibyte.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "win_policies",
+      "target_path": "target/win_policies.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/win_policies.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "winapi_downlevel",
+      "target_path": "target/winapi_downlevel.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/winapi_downlevel.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "winapi_thunks",
+      "target_path": "target/winapi_thunks.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/winapi_thunks.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "winapisupp",
+      "target_path": "target/winapisupp.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/winapisupp.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wmkdir",
+      "target_path": "target/wmkdir.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wmkdir.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wrename",
+      "target_path": "target/wrename.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wrename.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "write",
+      "target_path": "target/write.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/write.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wsetlocale",
+      "target_path": "target/wsetlocale.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wsetlocale.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "wunlink",
+      "target_path": "target/wunlink.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/wunlink.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xlock",
+      "target_path": "target/xlock.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xlock.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xmtx",
+      "target_path": "target/xmtx.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xmtx.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xnotify",
+      "target_path": "target/xnotify.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xnotify.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xthrow",
+      "target_path": "target/xthrow.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xthrow.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xtime",
+      "target_path": "target/xtime.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xtime.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xtoa",
+      "target_path": "target/xtoa.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xtoa.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "xwctomb",
+      "target_path": "target/xwctomb.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/xwctomb.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "yyEvent",
+      "target_path": "target/yyEvent.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/yyEvent.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "yyServer",
+      "target_path": "target/yyServer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/yyServer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "yySocket",
+      "target_path": "target/yySocket.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/yySocket.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "yySocketM",
+      "target_path": "target/yySocketM.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/yySocketM.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "yylog",
+      "target_path": "target/yylog.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/yylog.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_close",
+      "target_path": "target/zip_close.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_close.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_dirent",
+      "target_path": "target/zip_dirent.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_dirent.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_fclose",
+      "target_path": "target/zip_fclose.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_fclose.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_filerange_crc",
+      "target_path": "target/zip_filerange_crc.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_filerange_crc.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_fopen_index",
+      "target_path": "target/zip_fopen_index.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_fopen_index.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_fread",
+      "target_path": "target/zip_fread.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_fread.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_free",
+      "target_path": "target/zip_free.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_free.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_get_archive_flag",
+      "target_path": "target/zip_get_archive_flag.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_get_archive_flag.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_get_name",
+      "target_path": "target/zip_get_name.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_get_name.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_memdup",
+      "target_path": "target/zip_memdup.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_memdup.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_name_locate",
+      "target_path": "target/zip_name_locate.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_name_locate.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_open",
+      "target_path": "target/zip_open.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_open.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_replace",
+      "target_path": "target/zip_replace.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_replace.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_set_name",
+      "target_path": "target/zip_set_name.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_set_name.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_source_buffer",
+      "target_path": "target/zip_source_buffer.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_source_buffer.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_source_zip",
+      "target_path": "target/zip_source_zip.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_source_zip.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zip_stat_index",
+      "target_path": "target/zip_stat_index.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zip_stat_index.cpp.obj",
+      "metadata": {}
+    },
+    {
+      "name": "zutil",
+      "target_path": "target/zutil.obj",
+      "base_path": "build/CMakeFiles/GMR.dir/src/zutil.cpp.obj",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Compile using MSVC 19.38.33145.0 and Linker 14.29.30159.0. The PDB suggest it was compiled with SDK 10.0.26100.0, but it was also released on April 14th, 2014, which predates that SDK. So we're using 22621 instead here.
+
+You can install this with the command below. Ensure the MSVC directory exists first.
+
+```pwsh
+.\vs_buildtools.exe `
+    --installPath 'C:\MSVC' `
+    --add Microsoft.VisualStudio.Component.VC.14.38.17.8.x86.x64 `
+    --add Microsoft.VisualStudio.Component.VC.14.29.16.11.x86.x64 `
+    --add Microsoft.VisualStudio.Component.Windows11SDK.22621
+```
+
+I have a Wine script that can be used to init a prefix in the scripts folder, but no script to install the build tools. You can run the command above in Wine but I ran into a dotnet issue I couldn't be bothered to read so I just ran it in my VM and copied over the files.
+
+Run `./scripts/export_objs.sh --exe Runner.exe --csv obj.csv --out target` to export the object files. Currently this script only targets macOS. You need Ghidra installed.
+
+```bash
+cmake -S . -B build -G Ninja -DCMAKE_TOOLCHAIN_FILE="$PWD/scripts/wine-msvc.cmake"
+cmake --build build
+```

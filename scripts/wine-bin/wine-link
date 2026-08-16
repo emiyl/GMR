@@ -1,0 +1,48 @@
+#!/bin/sh
+set -eu
+
+ROOT="${WINEPREFIX:-$HOME/.gmrwine}"
+MSVC_ROOT="${GMR_MSVC_ROOT:-$ROOT/drive_c/MSVC}"
+SDK_ROOT="${GMR_WINDOWS_KITS_ROOT:-$ROOT/drive_c/Program Files (x86)/Windows Kits/10}"
+
+find_msvc_exe() {
+    exe_name="$1"
+    if [ -d "$MSVC_ROOT/VC/Tools/MSVC" ]; then
+        find "$MSVC_ROOT/VC/Tools/MSVC" -path "*/bin/Hostx64/x64/$exe_name" 2>/dev/null | sort | tail -n 1
+    fi
+}
+
+find_sdk_dir() {
+    sdk_subdir="$1"
+    if [ -d "$SDK_ROOT/Lib" ]; then
+        find "$SDK_ROOT/Lib" -type d -path "*/$sdk_subdir" 2>/dev/null | sort | tail -n 1
+    fi
+}
+
+LINK_EXE="$(find_msvc_exe link.exe)"
+if [ -z "$LINK_EXE" ]; then
+    echo "Error: link.exe was not found under $MSVC_ROOT. Install the MSVC toolchain into the Wine prefix or set GMR_MSVC_ROOT." >&2
+    exit 1
+fi
+
+MSVC_LIB_DIR="$(dirname "$(dirname "$(dirname "$LINK_EXE")")")/../lib/x64"
+SDK_UM_DIR="$(find_sdk_dir 'um/x64')"
+SDK_UCRT_DIR="$(find_sdk_dir 'ucrt/x64')"
+
+if [ -z "$SDK_UM_DIR" ] || [ -z "$SDK_UCRT_DIR" ]; then
+    echo "Error: Windows SDK libraries were not found under $SDK_ROOT. Install the Windows SDK or set GMR_WINDOWS_KITS_ROOT." >&2
+    exit 1
+fi
+
+if [ ! -d "$MSVC_LIB_DIR" ]; then
+    echo "Error: MSVC library directory not found: $MSVC_LIB_DIR" >&2
+    exit 1
+fi
+
+set -- \
+    "/LIBPATH:$(winepath -w "$MSVC_LIB_DIR")" \
+    "/LIBPATH:$(winepath -w "$SDK_UM_DIR")" \
+    "/LIBPATH:$(winepath -w "$SDK_UCRT_DIR")" \
+    "$@"
+
+exec wine "$LINK_EXE" "$@"
