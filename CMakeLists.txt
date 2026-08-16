@@ -20,4 +20,7 @@ target_compile_options(GMR PRIVATE
     /EHsc
 )
 
+target_link_libraries(GMR PRIVATE winmm avrt)
+target_link_options(GMR PRIVATE "/SUBSYSTEM:WINDOWS")
+
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /MANIFEST:NO")
