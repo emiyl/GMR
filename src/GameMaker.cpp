@@ -16,21 +16,21 @@
 #include "../box2d/include/box2d/b2_body.h"
 
 // Not checked
-inline int QueryPerformanceFrequency(LARGE_INTEGER* value)
+inline int QueryPerformanceFrequency(int64_t* value)
 {
     if (value == nullptr)
         return 0;
-    value->QuadPart = 1000000LL;
+    *value = 1000000LL;
     return 1;
 }
 
 // Not checked
-inline int QueryPerformanceCounter(LARGE_INTEGER* value)
+inline int QueryPerformanceCounter(int64_t* value)
 {
     if (value == nullptr)
         return 0;
     const auto now = std::chrono::steady_clock::now().time_since_epoch();
-    value->QuadPart = std::chrono::duration_cast<std::chrono::microseconds>(now).count();
+    *value = std::chrono::duration_cast<std::chrono::microseconds>(now).count();
     return 1;
 }
 
@@ -42,10 +42,10 @@ inline uint64_t GetTickCount64()
 }
 
 // Not checked
-inline long long Timing_Time()
+inline int64_t Timing_Time()
 {
     const auto now = std::chrono::steady_clock::now().time_since_epoch();
-    return static_cast<long long>(std::chrono::duration_cast<std::chrono::microseconds>(now).count());
+    return static_cast<int64_t>(std::chrono::duration_cast<std::chrono::microseconds>(now).count());
 }
 
 inline void InitFastCRC() {}
@@ -1083,20 +1083,28 @@ bool Init(void)
     RomDisk::ms_pRomDiskBase = g_RomDisk;
     RomDisk::ms_nRomDiskSize = 0;
 
-    if (g_RomDisk[4] > 0)
+    int32_t count;
+    std::memcpy(&count, g_RomDisk, sizeof(count));
+
+    if (count > 0)
     {
-        const int romDiskEntryCount = static_cast<int>(g_RomDisk[4]);
         int index = 0;
-        while (index < romDiskEntryCount)
+        while (index < count)
         {
-            RomDisk::ms_nRomDiskSize =
-                index + *reinterpret_cast<int*>(reinterpret_cast<char*>(g_RomDisk) + static_cast<long long>(index) * 8LL + 4);
+            int32_t entryValue;
+            std::memcpy(
+                &entryValue,
+                g_RomDisk + static_cast<size_t>(index) * 8 + 4,
+                sizeof(entryValue)
+            );
+
+            RomDisk::ms_nRomDiskSize = index + entryValue;
 
             ++index;
         }
     }
 
-    if (!QueryPerformanceFrequency(reinterpret_cast<LARGE_INTEGER*>(&g_QPCFreq)))
+    if (!QueryPerformanceFrequency(reinterpret_cast<int64_t*>(&g_QPCFreq)))
     {
         startTick = GetTickCount64() * 1000ULL;
         timing_start = startTick;
@@ -1104,7 +1112,7 @@ bool Init(void)
     }
     else
     {
-        QueryPerformanceCounter(reinterpret_cast<LARGE_INTEGER*>(&timing_start));
+        QueryPerformanceCounter(reinterpret_cast<int64_t*>(&timing_start));
     }
 
     g_TimingStart = timing_start;
