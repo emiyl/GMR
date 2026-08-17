@@ -3,6 +3,15 @@
 #include <windows.h>
 
 extern int g_ReturnCode;
+extern uint64_t g_QPCFreq;
+extern int64_t timing_start;
+extern uint64_t g_TimingStart;
+extern int g_flagBitPattern;
+extern bool g_AppSurfaceEnabled;
+extern bool g_bUsingAppSurface;
+extern int _views_count;
+extern void* builtin_variables;
+extern void* g_builtinVarLookup;
 extern DWORD g_MainThreadId;
 extern HINSTANCE g_hInstance;
 extern char* g_pCommandLine;

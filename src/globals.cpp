@@ -1,4 +1,5 @@
 #include <windows.h>
+#include <stdint.h>
 
 int g_ReturnCode = 0;
 DWORD g_MainThreadId = 0;
@@ -43,6 +44,12 @@ bool g_fVMDebug = false;
 bool g_fVMTrace = false;
 bool g_fFullMiniDump = false;
 bool g_OutputDebugOutput = false;
+uint64_t g_QPCFreq = 0;
+int64_t timing_start = 0;
+uint64_t g_TimingStart = 0;
+int g_flagBitPattern = 0xCAFEBABE;
+bool g_AppSurfaceEnabled = false;
+bool g_bUsingAppSurface = false;
 bool g_fNoErrorWindow = false;
 bool g_fDisableWindow = false;
 bool g_DebugNetworkOutput = false;
@@ -65,3 +72,7 @@ char* g_pIO_RecordFileName = nullptr;
 char* g_DebugConsoleOutputFileName = nullptr;
 char* g_ConsoleOutputFileName = nullptr;
 char* g_ProfileDumpFileName = nullptr;
+
+int _views_count = 0;
+void* builtin_variables = nullptr;
+void* g_builtinVarLookup = nullptr;
