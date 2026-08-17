@@ -12,7 +12,7 @@
 
 struct tagYYGUID { unsigned char bytes[16]{}; };
 
-enum LibraryInitState
+enum class LibraryInitState
 {
     PreInit = 0,
     Init = 1,
@@ -41,7 +41,6 @@ void* Lives_Caption = nullptr;
 void* Health_Caption = nullptr;
 void* Load_GameName = nullptr;
 
-inline bool InitRuntime() { return true; }
 inline void Quit() {}
 inline void RunGame() {}
 inline void Run_EndGame() {}
@@ -141,7 +140,7 @@ int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
         g_pGameName = DuplicateCString(gameNameUtf8.c_str());
     }
 
-    if (!InitRuntime())
+    if (!Init())
         return 0;
 
     timeGetDevCaps(&g_TimeCaps, sizeof(g_TimeCaps));
