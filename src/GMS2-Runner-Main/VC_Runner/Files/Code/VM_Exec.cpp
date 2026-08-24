@@ -3,6 +3,8 @@
 // Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\VM_Exec.obj
 // 154 function symbol(s) attributed to this object.
 
+#include <stdint.h>
+
 void Buffer_Standard::Buffer_Standard(/* type 0x603 */, int32_t, /* type 0x8229 (LF_ENUM) */, int32_t, bool);
 void TErrStreamConsole::TErrStreamConsole(void);
 void YYGMLException::YYGMLException(void *);
@@ -10,48 +12,52 @@ void YYGMLException::YYGMLException(void *, void *, void *, void *, void *, int3
 void AddGCRefObj(void *, bool, void *, bool);
 /* type 0x603 */ CBucket<32768,1048576,0>::Alloc(bool);
 void CBucket<32768,1048576,0>::Check(void);
-/* type 0x620 */ CheckForStackResize(/* type 0x620 */, void *, int32_t);
+uint8_t* CheckForStackResize(uint8_t*, void *, int32_t);
 void VM::ClearBreakpointsFromMemory(void);
-bool ConvertStringToBool(void *, bool, /* type 0x630 */);
-/* type 0x620 */ DoAdd(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoAnd(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoBranch(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoBranchFalse(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoBranchTrue(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoBreak(uint32_t, unsigned char, /* type 0x620 */, void *, void *, bool);
-/* type 0x620 */ DoCall(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoCallGML(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoCallLibrary(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoCallScript(void *, int32_t, /* type 0x620 */, void *, void *, void *);
-/* type 0x620 */ DoConv(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoConvIntToVariable(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoDiv(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoDup(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoExit(uint32_t, /* type 0x620 */, void *, void *);
+bool ConvertStringToBool(char *param_1,bool param_2,bool *param_3);
+
+uint8_t* DoAdd(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoAnd(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoBranch(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoBranchFalse(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoBranchTrue(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoBreakDoBreak(uint8_t param_1, uint8_t param_2, uint8_t *param_3, uint8_t *param_4, VMExec *param_5, bool param_6);
+uint8_t* DoCall(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoCallGML(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoCallLibrary(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoCallScript(void *, int32_t, uint8_t*, void *, void *, void *);
+uint8_t* DoConv(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoConvIntToVariable(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoDiv(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoDup(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoExit(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+
 void DoFullGC(void);
 void DoGenerationalGC(int32_t);
-/* type 0x620 */ DoMod(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoMul(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoNeg(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoNot(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoOr(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPop(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPopEnv(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPopLocalVariable(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPopNull(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPush(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPushBuiltin(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPushEnv(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPushGlobal(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPushImmediate(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoPushLocal(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoRem(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoRet(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoSet(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoShl(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoShr(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoSub(uint32_t, /* type 0x620 */, void *, void *);
-/* type 0x620 */ DoXor(uint32_t, /* type 0x620 */, void *, void *);
+
+uint8_t* DoMod(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoMul(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoNeg(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoNot(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoOr(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPop(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPopEnv(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPopLocalVariable(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPopNull(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPush(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPushBuiltin(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPushEnv(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPushGlobal(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPushImmediate(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoPushLocal(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoRem(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoRet(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoSet(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoShl(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoShr(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoSub(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+uint8_t* DoXor(uint32_t param_1, uint8_t *param_2, uint8_t *param_3, VMExec *param_4);
+
 void VM::Exec(void *, void *, void *, void *, void *, int32_t, void *, int32_t, void *);
 void VM::ExecDebug(void *, void *, bool);
 void VM::ExecRelease(void *, void *);
@@ -76,7 +82,7 @@ void CHashMap<int,CInstance *,3>::Insert(int32_t, void *);
 bool InstanceHandled(void *);
 void MarkAndSweepGen(int32_t, int32_t, bool);
 void TErrStreamConsole::Output(void *, /* type 0x0 */);
-/* type 0x620 */ PerformReturn(/* type 0x620 */, void *);
+uint8_t* PerformReturn(uint8_t*, void *);
 bool VM::PokeDSList(int32_t, int32_t, void *);
 bool VM::PokeDSMap(int32_t, int32_t, void *);
 bool VM::PokeDSPriority(int32_t, int32_t, void *);
