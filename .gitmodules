@@ -4,3 +4,6 @@
 [submodule "src/GMS2-Runner-Main/VC_Runner/json-c-0.16"]
 	path = src/GMS2-Runner-Main/VC_Runner/json-c-0.16
 	url = https://github.com/json-c/json-c.git
+[submodule "src/GMS2-Runner-Main/VC_Runner/freetype-2.8"]
+	path = src/GMS2-Runner-Main/VC_Runner/freetype-2.8
+	url = https://github.com/source-foundry/freetype2.git
