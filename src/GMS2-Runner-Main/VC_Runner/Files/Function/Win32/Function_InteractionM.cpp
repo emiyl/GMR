@@ -15,5 +15,5 @@ void F_KeyboardVirtualGetHeight(void *, void *, void *, int32_t, void *);
 void F_KeyboardVirtualGetStatus(void *, void *, void *, int32_t, void *);
 void F_KeyboardVirtualHide(void *, void *, void *, int32_t, void *);
 void F_KeyboardVirtualShow(void *, void *, void *, int32_t, void *);
-/* type 0x670 */ YYGetOpenFileName(void *, void *, /* type 0x670 */, /* type 0x670 */);
-/* type 0x670 */ YYGetSaveFileName(/* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */);
+char* YYGetOpenFileName(void *, void *, char*, char*);
+char* YYGetSaveFileName(char*, char*, char*, char*);

@@ -15,5 +15,5 @@ int32_t DLL_Define(/* type 0x603 */, void *, void *, int32_t, int32_t, /* type 0
 void DLL_Free(void *);
 void ExtensionFunctionNotFoundWarning(void *, void *, int32_t, int32_t, /* type 0x674 */);
 void cArray<DLL_RFunction *>::Reset(void);
-/* type 0x603 */ TryLoadModule(void *, /* type 0x670 */, int32_t);
+/* type 0x603 */ TryLoadModule(void *, char*, int32_t);
 void cArray<DLL_RFunction *>::setLength(/* type 0x23 */);

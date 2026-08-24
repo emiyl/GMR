@@ -25,7 +25,7 @@ void Debug_WriteSurfaceIds(void *, bool);
 bool DebuggerIsConnected(void);
 int32_t DebuggerMessageLoop(void);
 void DebuggerRunBackgroundMessageLoop(void);
-void ExecuteDebugScript(/* type 0x670 */, void *, void *);
+void ExecuteDebugScript(char*, void *, void *);
 void ProcessDebugPacket(void *, void *, int32_t);
 void TickDebugger(void);
 /* type 0x603 */ thread_tick_func(/* type 0x603 */);

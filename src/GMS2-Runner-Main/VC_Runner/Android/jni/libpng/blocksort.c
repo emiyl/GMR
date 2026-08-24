@@ -3,7 +3,7 @@
 // Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\png.obj
 // 19 function symbol(s) attributed to this object.
 
-int32_t BZ2_bzBuffToBuffDecompress(/* type 0x670 */, /* type 0x675 */, /* type 0x670 */, uint32_t, int32_t, int32_t);
+int32_t BZ2_bzBuffToBuffDecompress(char*, /* type 0x675 */, char*, uint32_t, int32_t, int32_t);
 int32_t BZ2_bzDecompress(void *);
 void BZ2_bz__AssertH__fail(int32_t);
 void * BZ2_bzlibVersion(void);

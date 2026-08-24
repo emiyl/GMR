@@ -9,5 +9,5 @@ void * spAtlasRegion_create(/* type 0x0 */);
 void * spAtlas_create(void *, int32_t, void *, /* type 0x603 */);
 void spAtlas_dispose(void *);
 void * spAtlas_findRegion(void *, void *);
-/* type 0x670 */ ss_copy(void *);
+char* ss_copy(void *);
 void * ss_trim(void *);

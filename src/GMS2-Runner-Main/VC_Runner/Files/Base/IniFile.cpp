@@ -20,7 +20,7 @@ void std::_Sort_unchecked<Section * *,bool (__cdecl*)(Section *,Section *)>(void
 /* struct 0xd85f */ std::_Tree<std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Key *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Key *> >,0> >::insert<0,0>(void *);
 /* struct 0xdaa1 */ std::_Tree<std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Section *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Section *> >,0> >::insert<0,0>(void *);
 void std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Section *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Section *> > >::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Section *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Section *> > >(void);
-void IniFile::IniFile(/* type 0x670 */, bool, bool);
+void IniFile::IniFile(char*, bool, bool);
 void Section::Section(void);
 void std::_Alloc_construct_ptr<std::allocator<std::_Tree_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Key *>,void *> > >::~_Alloc_construct_ptr<std::allocator<std::_Tree_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Key *>,void *> > >(void);
 void std::_Alloc_construct_ptr<std::allocator<std::_Tree_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Section *>,void *> > >::~_Alloc_construct_ptr<std::allocator<std::_Tree_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Section *>,void *> > >(void);
@@ -40,7 +40,7 @@ bool IniFile::IsWhiteSpace(void);
 bool IniFile::ReadIniFile(void);
 bool IniFile::SetKey(void *, void *, void *);
 void IniFile::SkipWhiteSpace(void);
-/* type 0x670 */ IniFile::WriteIniFile(bool);
+char* IniFile::WriteIniFile(bool);
 void * std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Key *> > >::_Extract(/* struct 0xd88b */);
 void * std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Section *> > >::_Extract(/* struct 0xd7b2 */);
 void * std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Key *> > >::_Insert_node(void, void *);

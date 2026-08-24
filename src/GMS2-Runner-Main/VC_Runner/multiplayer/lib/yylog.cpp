@@ -4,4 +4,4 @@
 // 2 function symbol(s) attributed to this object.
 
 void Log(void *, /* type 0x0 */);
-int32_t vfprintf(void *, void *, /* type 0x670 */);
+int32_t vfprintf(void *, void *, char*);

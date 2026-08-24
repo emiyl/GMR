@@ -44,4 +44,4 @@ void addPageToGlobalPageList(/* type 0x603 */, /* type 0x603 */);
 void * globalPageListFindAddr(void *);
 /* type 0x603 */ yy_calloc(/* type 0x23 */, /* type 0x23 */);
 /* type 0x603 */ yy_malloc(/* type 0x23 */);
-/* type 0x670 */ yy_strdup(void *);
+char* yy_strdup(void *);

@@ -25,7 +25,7 @@ bool Command_IsFree(void *, float, float);
 void Command_NextRoom(int32_t);
 void Command_PreviousRoom(int32_t);
 void Command_Snap(void *, float, float);
-int32_t Command_Unzip(void *, void *, int32_t, int32_t, /* type 0x670 */);
+int32_t Command_Unzip(void *, void *, int32_t, int32_t, char*);
 int32_t Command_Unzip_Async(void *, void *);
 bool RTree<CInstance *,float,float,6,2>::InsertRect(void *, void *, int32_t);
 bool RTree<CInstance *,float,float,6,2>::InsertRectRec(void *, void *, void *, int32_t);

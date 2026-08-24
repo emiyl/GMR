@@ -10,6 +10,6 @@ void AddScripts(void *);
 void AddTimelineCode(void *);
 void Debug_SendGameStructure(void *);
 void Debug_SendYYDebug(void *);
-/* type 0x670 */ ReadString(void *);
+char* ReadString(void *);
 void TraverseObjects(void *);
 void WriteString(void *, void *);

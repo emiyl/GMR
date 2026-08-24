@@ -15,7 +15,7 @@ void DrawLayerTextElement(void *, void *, void *);
 void DrawLayerTilemapElement(void *, void *, void *, float, float, float);
 void DrawRoomLayers(void *, int32_t);
 void DrawSequence(void *, void *, void *, void *, float, float, float, void *, bool);
-void DrawTextItem(/* type 0x670 */, int32_t, uint32_t, float, float, float, int32_t, bool, int32_t, float, float, float, void *, bool);
+void DrawTextItem(char*, int32_t, uint32_t, float, float, float, int32_t, bool, int32_t, float, float, float, void *, bool);
 void DrawTheRoom(void *, float, float);
 void DrawTile(void *, void *, uint32_t, int32_t, float, float, float);
 void DrawTrackList(void *, void *, void *, void *, float, float, float, void *, void *);

@@ -4,8 +4,8 @@
 // 13 function symbol(s) attributed to this object.
 
 void _tr_align(void *);
-void _tr_flush_block(void *, /* type 0x670 */, /* type 0x22 */, int32_t);
-void _tr_stored_block(void *, /* type 0x670 */, /* type 0x22 */, int32_t);
+void _tr_flush_block(void *, char*, /* type 0x22 */, int32_t);
+void _tr_stored_block(void *, char*, /* type 0x22 */, int32_t);
 void bi_flush(void *);
 void bi_windup(void *);
 void build_tree(void *, void *);

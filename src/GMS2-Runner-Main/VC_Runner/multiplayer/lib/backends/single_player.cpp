@@ -9,7 +9,7 @@
 int32_t SinglePlayerBackend::GetLastConfirmedFrame(void);
 /* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::IncrementFrame(void);
 /* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::SendChatMsg(void *, int32_t);
-/* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::SetPlayerPrefs(/* type 0x670 */, uint32_t);
+/* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::SetPlayerPrefs(char*, uint32_t);
 /* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::StartGame(void);
 /* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::SyncInput(/* type 0x603 */, int32_t, void *);
 /* type 0x13663 (LF_ENUM) */ SinglePlayerBackend::SyncOnFrame(bool);

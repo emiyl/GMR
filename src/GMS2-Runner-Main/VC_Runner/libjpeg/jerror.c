@@ -5,6 +5,6 @@
 
 void emit_message(void *, int32_t);
 void error_exit(void *);
-void format_message(void *, /* type 0x670 */);
+void format_message(void *, char*);
 void output_message(void *);
 void reset_error_mgr(void *);

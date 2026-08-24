@@ -25,6 +25,6 @@ bool Shader_Set_Uniform_I(int32_t, int32_t, double, double, double, double);
 bool Shader_Set_Uniform_IA(int32_t, int32_t, /* type 0x674 */);
 bool Shader_Set_Uniform_Matrix_N(int32_t, int32_t, /* type 0x640 */);
 void * _CloneFromShaderHeader(void *);
-void * _GetInputLayout(int32_t, /* type 0x674 */, void *, /* type 0x674 */, void *, int32_t, /* type 0x670 */, int32_t);
+void * _GetInputLayout(int32_t, /* type 0x674 */, void *, /* type 0x674 */, void *, int32_t, char*, int32_t);
 int32_t _InitShader(void *);
 void _SetVar(void *, int32_t, /* type 0x603 */, int32_t);

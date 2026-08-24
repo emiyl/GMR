@@ -236,7 +236,7 @@ int32_t cmp_userfunc(void *, void *);
 /* type 0x13 */ iScript_Random(/* type 0x13 */);
 void std::basic_string<char,std::char_traits<char>,std::allocator<char> >::reserve(void);
 bool utf8_is_space(void *);
-unsigned char utf8_set_char(/* type 0x670 */, uint32_t);
+unsigned char utf8_set_char(char*, uint32_t);
 void utf8_add_char(void *, uint32_t);
 uint32_t utf8_extract_char(void *);
 uint32_t utf8_get_char(void *);

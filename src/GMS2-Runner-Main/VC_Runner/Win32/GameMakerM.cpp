@@ -16,5 +16,5 @@ void Terminate(void);
 int32_t exception_handler(void *);
 int32_t runtime_check_handler(int32_t, void *, int32_t, void *, void *, /* type 0x0 */);
 void * GetExeName(void);
-int32_t WinMain(void *, void *, /* type 0x670 */, int32_t);
+int32_t WinMain(void *, void *, char*, int32_t);
 int32_t wprintf(void *, /* type 0x0 */);

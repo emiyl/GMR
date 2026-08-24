@@ -42,12 +42,12 @@ int32_t std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >:
 /* struct 0x137c */ std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::seekoff(/* type 0x13 */, int32_t, int32_t);
 /* struct 0x137c */ std::basic_streambuf<char,std::char_traits<char> >::seekpos(/* struct 0x137c */, int32_t);
 /* struct 0x137c */ std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::seekpos(/* struct 0x137c */, int32_t);
-void * std::basic_streambuf<char,std::char_traits<char> >::setbuf(/* type 0x670 */, /* type 0x13 */);
+void * std::basic_streambuf<char,std::char_traits<char> >::setbuf(char*, /* type 0x13 */);
 /* type 0x13 */ std::basic_streambuf<char,std::char_traits<char> >::showmanyc(void);
 /* struct 0x1413 */ std::basic_stringstream<char,std::char_traits<char>,std::allocator<char> >::str(void);
 int32_t std::basic_streambuf<char,std::char_traits<char> >::sync(void);
 int32_t std::basic_streambuf<char,std::char_traits<char> >::uflow(void);
 int32_t std::basic_streambuf<char,std::char_traits<char> >::underflow(void);
 int32_t std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::underflow(void);
-/* type 0x13 */ std::basic_streambuf<char,std::char_traits<char> >::xsgetn(/* type 0x670 */, /* type 0x13 */);
+/* type 0x13 */ std::basic_streambuf<char,std::char_traits<char> >::xsgetn(char*, /* type 0x13 */);
 /* type 0x13 */ std::basic_streambuf<char,std::char_traits<char> >::xsputn(void *, /* type 0x13 */);

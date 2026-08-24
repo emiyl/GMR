@@ -5,8 +5,8 @@
 
 void DS_AutoMutex::DS_AutoMutex(void);
 void DS_AutoMutex::~DS_AutoMutex(void);
-bool CheckEncryptedUDID(/* type 0x670 */);
-/* type 0x670 */ EncryptUDID(void);
+bool CheckEncryptedUDID(char*);
+char* EncryptUDID(void);
 void F_DsExists(void *, void *, void *, int32_t, void *);
 void F_DsGridAdd(void *, void *, void *, int32_t, void *);
 void F_DsGridAddDisk(void *, void *, void *, int32_t, void *);

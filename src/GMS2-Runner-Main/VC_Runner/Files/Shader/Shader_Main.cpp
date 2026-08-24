@@ -3,7 +3,7 @@
 // Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\Shader_Main.obj
 // 23 function symbol(s) attributed to this object.
 
-void * AddShader(/* type 0x670 */, int32_t, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, int32_t, /* type 0x670 */, int32_t, /* type 0x670 */, int32_t, /* type 0x670 */, int32_t, int32_t, /* type 0x675 */, int32_t);
+void * AddShader(char*, int32_t, char*, char*, char*, char*, char*, char*, char*, char*, char*, int32_t, char*, int32_t, char*, int32_t, char*, int32_t, int32_t, /* type 0x675 */, int32_t);
 void F_Shader_Current(void *, void *, void *, int32_t, void *);
 void F_Shader_Get_Name(void *, void *, void *, int32_t, void *);
 void F_Shader_Get_Sampler_Index(void *, void *, void *, int32_t, void *);

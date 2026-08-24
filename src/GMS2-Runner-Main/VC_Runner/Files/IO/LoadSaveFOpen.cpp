@@ -11,7 +11,7 @@ void CreateAsynEventWithDSMapAndBuffer(int32_t, int32_t, int32_t);
 bool IsFilenameInWhiteList(void *, void *);
 int32_t PB_DSMap(void *, /* type 0x603 */, /* type 0x674 */);
 void PB_DSMapCleanup(void *);
-void HTTP_REQ_CONTEXT::SetResponseHeaders(/* type 0x670 */);
+void HTTP_REQ_CONTEXT::SetResponseHeaders(char*);
 bool LoadSave::fclose(void *);
 void * LoadSave::fopen(void *, void *);
 int32_t LoadSave::fputs(void *, void *);

@@ -6,5 +6,5 @@
 void png_chunk_error(void *, void *);
 void png_default_error(void *, void *);
 void png_error(void *, void *);
-void png_format_buffer(void *, /* type 0x670 */, void *);
+void png_format_buffer(void *, char*, void *);
 void png_warning(void *, void *);

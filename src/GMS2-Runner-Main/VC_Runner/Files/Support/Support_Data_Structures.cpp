@@ -63,7 +63,7 @@ bool CDS_Map::ReadFromString(void *, bool);
 bool CDS_Priority::ReadFromString(void *, bool);
 bool CDS_Queue::ReadFromString(void *, bool);
 bool CDS_Stack::ReadFromString(void *, bool);
-/* type 0x670 */ ReadHexString(void *);
+char* ReadHexString(void *);
 void ReadValue(void *, void *, int32_t);
 void CDS_Grid::Region_Operation(int32_t, int32_t, int32_t, int32_t, int32_t, void *);
 void CDS_List::Replace(int32_t, void *);

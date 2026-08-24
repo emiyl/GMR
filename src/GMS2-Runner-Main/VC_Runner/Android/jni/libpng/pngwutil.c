@@ -4,7 +4,7 @@
 // 30 function symbol(s) attributed to this object.
 
 void png_do_write_interlace(void *, /* type 0x620 */, int32_t);
-int32_t png_text_compress(void *, /* type 0x670 */, /* type 0x23 */, int32_t, void *);
+int32_t png_text_compress(void *, char*, /* type 0x23 */, int32_t, void *);
 void png_write_IDAT(void *, /* type 0x620 */, /* type 0x23 */);
 void png_write_IHDR(void *, uint32_t, uint32_t, int32_t, int32_t, int32_t, int32_t, int32_t);
 void png_write_PLTE(void *, void *, uint32_t);
@@ -19,17 +19,17 @@ void png_write_find_filter(void *, void *);
 void png_write_finish_row(void *);
 void png_write_gAMA(void *, double);
 void png_write_hIST(void *, /* type 0x621 */, int32_t);
-void png_write_iCCP(void *, /* type 0x670 */, int32_t, /* type 0x670 */, int32_t);
-void png_write_iTXt(void *, int32_t, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */, /* type 0x670 */);
+void png_write_iCCP(void *, char*, int32_t, char*, int32_t);
+void png_write_iTXt(void *, int32_t, char*, char*, char*, char*);
 void png_write_oFFs(void *, int32_t, int32_t, int32_t);
-void png_write_pCAL(void *, /* type 0x670 */, int32_t, int32_t, int32_t, int32_t, /* type 0x670 */, void *);
+void png_write_pCAL(void *, char*, int32_t, int32_t, int32_t, int32_t, char*, void *);
 void png_write_pHYs(void *, uint32_t, uint32_t, int32_t);
 void png_write_sBIT(void *, void *, int32_t);
 void png_write_sCAL(void *, int32_t, double, double);
 void png_write_sPLT(void *, void *);
 void png_write_sRGB(void *, int32_t);
 void png_write_start_row(void *);
-void png_write_tEXt(void *, /* type 0x670 */, /* type 0x670 */, /* type 0x23 */);
+void png_write_tEXt(void *, char*, char*, /* type 0x23 */);
 void png_write_tIME(void *, void *);
 void png_write_tRNS(void *, /* type 0x620 */, void *, int32_t, int32_t);
-void png_write_zTXt(void *, /* type 0x670 */, /* type 0x670 */, /* type 0x23 */, int32_t);
+void png_write_zTXt(void *, char*, char*, /* type 0x23 */, int32_t);

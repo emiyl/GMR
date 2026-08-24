@@ -35,7 +35,7 @@ void std::_Throw_bad_array_new_length(void);
 void std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Tidy_deallocate(void);
 void std::_Xlen_string(void);
 void std::_String_val<std::_Simple_types<char> >::_Xran(void);
-/* type 0x670 */ std::allocator<char>::allocate(void);
+char* std::allocator<char>::allocate(void);
 void * std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append(void *, void);
 void * std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign(void *);
 void * std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign(void *, void);

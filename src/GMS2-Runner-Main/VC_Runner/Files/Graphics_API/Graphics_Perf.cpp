@@ -56,7 +56,7 @@ void DBGTextSeparator::CopyToClipboard(void *);
 void DBGView::CopyToClipboard(void *);
 void DBGWatch::CopyToClipboard(void *);
 void LogText::CopyToClipboard(void *);
-void GMLogWindow::CreateArgumentArray(/* type 0x670 */, int32_t, /* type 0x674 */, void *);
+void GMLogWindow::CreateArgumentArray(char*, int32_t, /* type 0x674 */, void *);
 /* type 0x603 */ Debug_AddCheckBox(void *, int32_t);
 /* type 0x603 */ Debug_AddColour(void *, int32_t);
 /* type 0x603 */ Debug_AddDropDown(void *, int32_t, void *);
