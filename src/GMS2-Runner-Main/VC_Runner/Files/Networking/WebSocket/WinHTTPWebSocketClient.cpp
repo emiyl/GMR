@@ -1,0 +1,60 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\Files\Networking\WebSocket\WinHTTPWebSocketClient.cpp
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\WinHTTPWebSocketClient.obj
+// 95 function symbol(s) attributed to this object.
+
+void std::chrono::duration<__int64,std::ratio<1,1000> >::duration<__int64,std::ratio<1,1000> ><int,0>(void *);
+void std::_Container_base12::_Alloc_proxy<std::allocator<std::_Container_proxy> >(void *);
+void std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> >::_Emplace_back_internal<void const * &,unsigned __int64 &,bool &>(void *, void *, void *);
+void std::vector<unsigned char,std::allocator<unsigned char> >::_Resize_reallocate<std::_Value_init_tag>(void, void *);
+bool std::condition_variable::wait_for<__int64,std::ratio<1,1000>,<lambda_c025343f38809d336b5d1adb8349bf9a> >(void *, void *, /* struct 0x18c16 */);
+void std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >(void *);
+void std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >(void *);
+void WinHTTPWebSocketClient::WinHTTPWebSocketClient(int32_t, void *, void *);
+void std::_System_error::_System_error(/* struct 0x1841 */, void *);
+void std::_System_error::_System_error(void *);
+void std::system_error::system_error(void *);
+void std::system_error::system_error(/* struct 0x1841 */);
+void std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::~basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >(void);
+void std::queue<WinHTTPWebSocketClient::QueuedMessage,std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> > >::~queue<WinHTTPWebSocketClient::QueuedMessage,std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> > >(void);
+void std::unique_lock<std::mutex>::~unique_lock<std::mutex>(void);
+void std::unique_lock<std::recursive_mutex>::~unique_lock<std::recursive_mutex>(void);
+void std::vector<unsigned char,std::allocator<unsigned char> >::~vector<unsigned char,std::allocator<unsigned char> >(void);
+void std::vector<wchar_t,std::allocator<wchar_t> >::~vector<wchar_t,std::allocator<wchar_t> >(void);
+void WebSocketURL::~WebSocketURL(void);
+void std::condition_variable::~condition_variable(void);
+void std::mutex::~mutex(void);
+void std::recursive_mutex::~recursive_mutex(void);
+void std::system_error::~system_error(void);
+/* type 0x6eb0 (LF_ENUM) */ WinHTTPWebSocketClient::BlockUntilConnectionCompletes(int32_t);
+void WinHTTPWebSocketClient::Close(void);
+bool WinHTTPWebSocketClient::ConnectionClosed(void);
+/* type 0x6eb0 (LF_ENUM) */ WinHTTPWebSocketClient::ProcessConnection(void);
+bool WinHTTPWebSocketClient::ReceiveMessage(void *, /* type 0x623 */, /* type 0x630 */);
+bool WinHTTPWebSocketClient::SendWSPacket(void *, /* type 0x23 */, bool);
+void WinHTTPWebSocketClient::WinHTTPStatusCallback(/* type 0x603 */, /* type 0x23 */, /* type 0x22 */, /* type 0x603 */, /* type 0x22 */);
+void std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> >::_Growmap(/* type 0x23 */);
+void std::_Container_base12::_Orphan_all(void);
+void std::_Throw_system_error(void);
+void std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> >::_Tidy(void);
+void std::vector<wchar_t,std::allocator<wchar_t> >::_Tidy(void);
+void std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> >::_Xlen(void);
+void std::vector<unsigned char,std::allocator<unsigned char> >::_Xlength(void);
+void std::vector<wchar_t,std::allocator<wchar_t> >::_Xlength(void);
+/* type 0x671 */ std::allocator<wchar_t>::allocate(void);
+void * std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::assign(void *);
+void * std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::assign(void *, void);
+void std::allocator<unsigned char>::deallocate(void *, void);
+/* struct 0x13a0 */ std::error_category::default_error_condition(int32_t);
+bool std::error_category::equivalent(void *, int32_t);
+bool std::error_category::equivalent(int32_t, void *);
+void * std::generic_category(void);
+/* struct 0x1841 */ std::make_error_code(/* type 0x27ee (LF_ENUM) */);
+/* struct 0x1413 */ std::_Generic_error_category::message(int32_t);
+void * std::_Generic_error_category::name(void);
+/* struct 0x973a */ std::chrono::steady_clock::now(void);
+void std::queue<WinHTTPWebSocketClient::QueuedMessage,std::deque<WinHTTPWebSocketClient::QueuedMessage,std::allocator<WinHTTPWebSocketClient::QueuedMessage> > >::pop(void);
+void std::vector<unsigned char,std::allocator<unsigned char> >::resize(void);
+/* struct 0x1565 */ string_to_wstring(void *);
+/* struct 0x96ff */ std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >::time_since_epoch(void);
+int32_t swprintf(void *, void, void *, /* type 0x0 */);

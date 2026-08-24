@@ -1,0 +1,66 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\Files\Particle\Particle_Main.cpp
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\Particle_Main.obj
+// 75 function symbol(s) attributed to this object.
+
+void * std::vector<SEmitter *,std::allocator<SEmitter *> >::_Emplace_reallocate<SEmitter * const &>(void *, void *);
+void * std::vector<CParticleSystem *,std::allocator<CParticleSystem *> >::_Emplace_reallocate<CParticleSystem * const &>(void *, void *);
+void * std::vector<SEmitter *,std::allocator<SEmitter *> >::_Emplace_reallocate<SEmitter *>(void *, void *);
+void * std::vector<CParticleSystem *,std::allocator<CParticleSystem *> >::_Emplace_reallocate<CParticleSystem *>(void *, void *);
+void std::vector<SEmitter *,std::allocator<SEmitter *> >::~vector<SEmitter *,std::allocator<SEmitter *> >(void);
+bool cArray<char *>::ClearElement(/* type 0x23 */);
+bool cOwningArrayFree<char *>::ClearElement(/* type 0x23 */);
+void Compute_Color(void *);
+void * CParticleSystem::Create(void);
+void CreateParticle(void *, float, float, int32_t, void *);
+void DrawParticles(void *, void *, int32_t, int32_t, int32_t, uint32_t, float);
+void EmitParticles(void *, void *, float, float, int32_t, int32_t, bool, uint32_t);
+void EmitterRandomizeDelay(void *);
+void EmitterRandomizeInterval(void *);
+void FreeEmitters(int32_t);
+void * RParticleSystemManager::Get(int32_t);
+void HandleLife(int32_t, int32_t);
+void HandleMotion(int32_t, int32_t);
+void HandleShape(int32_t, int32_t);
+int32_t CParticleSystem::MakeInstance(int32_t, bool, void *, int32_t);
+float MyRandom(float, float, int32_t);
+void Part_CreateTextures(void);
+void Part_SetupEmbeddedImages(void);
+void ParticleSystem_AddAllToLayers(void);
+void ParticleSystem_Clear(int32_t, bool);
+void * ParticleSystem_Create_GetLayer(int32_t);
+int32_t ParticleSystem_Create_OnLayer(int32_t, bool, void *, int32_t);
+void ParticleSystem_Depth(int32_t, float);
+void ParticleSystem_Destroy(int32_t);
+void ParticleSystem_DestroyAll(void);
+void ParticleSystem_Draw(int32_t, uint32_t, float);
+void ParticleSystem_Emitter_Burst(int32_t, int32_t, int32_t, float);
+void ParticleSystem_Emitter_Burst_Impl(void *, void *, float, float, float, float, int32_t, int32_t, int32_t, float);
+void ParticleSystem_Emitter_Clear(int32_t, int32_t);
+int32_t ParticleSystem_Emitter_Create(int32_t);
+void ParticleSystem_Emitter_Destroy(int32_t, int32_t);
+void ParticleSystem_Emitter_Stream(int32_t, int32_t, int32_t, float);
+bool ParticleSystem_Emitters_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+void ParticleSystem_Layer(int32_t, int32_t);
+void ParticleSystem_Particles_Burst(int32_t, float, float, int32_t);
+void ParticleSystem_Particles_Clear(int32_t);
+void ParticleSystem_Particles_Create_Color(int32_t, float, float, int32_t, uint32_t, int32_t);
+void ParticleSystem_RemoveAllFromLayers(void);
+void ParticleSystem_Update(int32_t);
+bool ParticleSystems_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+void ParticleType_Clear(int32_t);
+int32_t ParticleType_Create(void);
+void ParticleType_Destroy(int32_t);
+void ParticleType_DestroyAll(void);
+void ParticleType_Orientation(int32_t, float, float, float, float, bool);
+void ParticleType_Size(int32_t, float, float, float, float);
+void RParticleSystemManager::Remove(int32_t);
+void cArray<char *>::Reset(void);
+void RParticleSystemManager::Resize(/* type 0x23 */);
+void std::vector<SEmitter *,std::allocator<SEmitter *> >::_Change_array(void *, void, void);
+void std::vector<CParticleSystem *,std::allocator<CParticleSystem *> >::_Change_array(void *, void, void);
+void std::vector<SEmitter *,std::allocator<SEmitter *> >::_Xlength(void);
+void std::vector<CParticleSystem *,std::allocator<CParticleSystem *> >::_Xlength(void);
+void * std::allocator<SEmitter *>::allocate(void);
+void * std::allocator<CParticleSystem *>::allocate(void);
+void cArray<char *>::setLength(/* type 0x23 */);

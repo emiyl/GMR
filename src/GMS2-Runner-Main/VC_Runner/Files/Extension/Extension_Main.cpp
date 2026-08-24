@@ -1,0 +1,64 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\Files\Extension\Extension_Main.cpp
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\Extension_Main.obj
+// 72 function symbol(s) attributed to this object.
+
+void Buffer_AutoMutex::~Buffer_AutoMutex(void);
+void AddDirectoryToBundleWhitelist(void *);
+void AddDirectoryToSaveWhitelist(void *);
+void AddFileToBundleWhitelist(void *);
+void AddFileToSaveWhitelist(void *);
+/* type 0x620 */ BufferGet(void *);
+void * BufferGetFromGML(int32_t);
+int32_t BufferTELL(void *);
+/* type 0x603 */ CreateSpriteAsync(/* type 0x674 */, int32_t, int32_t, int32_t, int32_t);
+bool DirExists(void *);
+void DsMapAddBool(int32_t, void *, bool);
+void DsMapAddRValue(int32_t, void *, void *);
+void * ExtGetVersion(void *);
+void ExtOptGetRValue(void *, void *, void *);
+double ExtOptGetReal(void *, void *);
+void * ExtOptGetString(void *, void *);
+void Ext_HTTP_Get(void *, void *, void *, /* type 0x603 */);
+void Ext_HTTP_Post(void *, void *, void *, void *, /* type 0x603 */);
+void Ext_HTTP_Request(void *, void *, void *, void *, void *, void *, /* type 0x603 */, int32_t);
+bool Extension_Call_DLL_Function(void *, void *, int32_t, int32_t, void *, void *);
+bool Extension_Finalize(void);
+int32_t Extension_FindName(void *);
+void * Extension_Function_GetName(int32_t);
+bool Extension_Initialize(void);
+bool Extension_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+void Extension_Option_GetValue(int32_t, void *, void *);
+void Extension_PrePrepare(void);
+bool F_DsMapAdd_Internal_wrapper(int32_t, void *, /* type 0x13 */);
+void * FilePrePend(void);
+bool IsRunningFromIDE(void);
+void ReleaseConsoleOutput(void *, /* type 0x0 */);
+bool LoadSave::SaveFileExistsForExtension(void *);
+void StructAddBool(void *, void *, bool);
+void StructAddDouble(void *, void *, double);
+void StructAddInt32(void *, void *, int32_t);
+void StructAddInt64(void *, void *, /* type 0x13 */);
+void StructAddInt(void *, void *, int32_t);
+void StructAddRValue(void *, void *, void *);
+void StructAddString(void *, void *, void *);
+void StructCreate(void *);
+void * StructGet(void *, void *);
+int32_t StructGetKeys(void *, void *, /* type 0x674 */);
+void WhiteListAddTo(void *, bool);
+bool WhiteListIsFilenameIn(void *);
+bool WhitelistIsDirectoryIn(void *);
+int32_t YYArrayGetLength(void *);
+bool YYBase64Encode(void *, /* type 0x23 */, /* type 0x603 */, /* type 0x23 */);
+bool YYBufferGetContent(int32_t, void *, /* type 0x674 */);
+int32_t YYBufferWriteContent(int32_t, int32_t, void *, int32_t, bool, bool);
+bool YYBundleFileName(/* type 0x670 */, int32_t, void *);
+void YYCreateArray(void *, int32_t, void *);
+void YYDestroyDsMap(int32_t);
+void YYFREE_RValue(void *);
+void * YYGetStruct(void *, int32_t);
+/* type 0x603 */ YYMutexCreate(void *);
+void YYMutexDestroy(/* type 0x603 */);
+void YYMutexLock(/* type 0x603 */);
+void YYMutexUnlock(/* type 0x603 */);
+bool YYSaveFileName(/* type 0x670 */, int32_t, void *);

@@ -1,0 +1,68 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\Files\Animation\SkeletonAnimation_Class.cpp
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\SkeletonAnimation_Class.obj
+// 103 function symbol(s) attributed to this object.
+
+void std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > ><std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,0>(/* struct 0xc56f */, /* struct 0xc56f */, void *);
+void CSkeletonInstance::CSkeletonInstance(void *);
+void CSkeletonInstance::CSkeletonInstance(void *);
+void CSkeletonSprite::CSkeletonSprite(/* type 0x670 */, int32_t);
+void CSkeletonSprite::CSkeletonSprite(/* type 0x670 */, uint32_t, uint32_t, uint32_t, void *);
+void std::_Tidy_guard<std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::~_Tidy_guard<std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >(void);
+void CSkeletonInstance::~CSkeletonInstance(void);
+void CSkeletonSkin::AddGlobalRef(void);
+bool CSkeletonInstance::ComputeBoundingBox(void *, float, float, float, float, float, float);
+void CSkeletonInstance::CreateAttachment(void *, void *, /* type 0x11 */, int32_t, int32_t, float, float, float, float, float, float, float, float, float, /* struct 0x99c0 */, bool);
+void CSkeletonInstance::CreateAttachment(void *, void *, int32_t, float, float, float, float, float, uint32_t, float, bool);
+void * CSkeletonInstance::CreateSkinFromSkins(void *, void *, int32_t);
+void CSkeletonSprite::Draw(float, float, float, float, float, float, uint32_t, float, void *);
+void CSkeletonSprite::Draw(void *, void *, float, float, float, float, float, float, uint32_t, float, void *, void *);
+void CSkeletonSprite::DrawCollision(void *, float, float, float, float, float, float, uint32_t, void *);
+void CSkeletonSprite::DrawCollisionBounds(void *, float, float);
+void CSkeletonSprite::DrawCollisionLine(float, float, float, float);
+void CSkeletonSprite::DrawFrame(void *, void *, void *, float, float, float, float, float, float, uint32_t, float);
+void CSkeletonSprite::DrawSkeleton(void *, float, float, uint32_t, float, float);
+void CSkeletonSprite::DrawTime(void *, void *, float, float, float, float, float, float, uint32_t, float);
+bool CSkeletonInstance::EllipseCollision(float, float, float, float, float, float, void *);
+void * CSkeletonInstance::FindAttachment(void *, void *, bool);
+bool CSkeletonSprite::FixupTexturesFromAsyncRequest(int32_t);
+void CSkeletonSkin::Free(bool);
+void * CSkeletonInstance::GetAnimation(int32_t);
+int32_t CSkeletonSprite::GetAtlasTextureID(int32_t);
+/* struct 0x9b7a */ CSkeletonSprite::GetAttachmentsForSlot(void *);
+bool CSkeletonInstance::GetBoneData(void *, int32_t);
+bool CSkeletonInstance::GetBoneState(void *, void *, int32_t);
+int32_t CSkeletonSprite::GetNumAtlasTextures(void);
+void CSkeletonSprite::GetSlotsAtSpritePos(void *, void *, void *, float, float, float, float, float, float, void *);
+/* type 0x640 */ GetSpineTransVerts(int32_t);
+float CSkeletonInstance::ImageIndex(int32_t);
+bool CSkeletonSprite::LoadFromFile(/* type 0x670 */, /* type 0x670 */);
+bool CSkeletonSprite::LoadFromFileAsync(/* type 0x670 */, /* type 0x670 */, int32_t);
+bool CSkeletonSprite::PointInBoundingBox(void *, float, float);
+bool CSkeletonSprite::PointInMesh(void *, float, float);
+void CSkeletonSkin::PreFree(void);
+bool CSkeletonInstance::SelectAnimationExt(void *, int32_t, bool, void *);
+void CSkeletonInstance::SelectSkin(void *);
+void CSkeletonInstance::SelectSkin(void *);
+void CSkeletonInstance::SetAnimationMix(void *, void *, float);
+bool CSkeletonInstance::SetAnimationTransform(float, float, float, float, void *, void *);
+void CSkeletonInstance::SetAnimationTransformInstance(void *);
+void CSkeletonInstance::SetAttachment(void *, void *, bool);
+bool CSkeletonInstance::SetBoneState(void *, void *, int32_t);
+void CSkeletonInstance::SetImageIndex(int32_t, float);
+void CSkeletonInstance::SetOnlySkinSlots(void *);
+void SetValueFromMap(void *, void *, /* type 0x640 */);
+void CSkeletonInstance::SetupSkeletonData(void *);
+void SkeletonLoadAtlasFileFunc(void *, int32_t, /* type 0x13 */);
+void SkeletonLoadCheckCompleteFunc(/* type 0x13 */);
+void SkeletonLoadJSONFileFunc(void *, int32_t, /* type 0x13 */);
+void SkeletonLoadTextureCheckCompleteFunc(/* type 0x13 */);
+void SkeletonLoadTextureFileFunc(void *, int32_t, /* type 0x13 */);
+void SkeletonTextureDecompressAsyncFunc(void *, int32_t, int32_t, /* type 0x13 */);
+void SkeletonTextureDecompressionCompleteFunc(/* type 0x13 */);
+bool CSkeletonInstance::SpriteCollision(float, float, float, float, float, float, void *, void *, int32_t, float, float, float, float, float);
+void CSkeletonSkin::ThreadFree(bool, void *);
+void CSkeletonInstance::UpdateWorldTransformAndBounds(void);
+void _spAnimationCallback(void *, /* type 0x9df9 (LF_ENUM) */, void *, void *);
+void applyTimeDeltaToMixingFrom(void *, float);
+void _spAtlasPage_createTexture(void *, void *);

@@ -1,0 +1,64 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\Files\Sound\Audio_Interface.cpp
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\Audio_Interface.obj
+// 74 function symbol(s) attributed to this object.
+
+void std::vector<int,std::allocator<int> >::_Resize_reallocate<std::_Value_init_tag>(void, void *);
+/* struct 0xbf1f */ std::_Hash<std::_Uset_traits<int,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<int>,0> >::emplace<int const &>(void *);
+void std::fill<std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<int> >,std::_Iterator_base0> *,std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<int> >,std::_Iterator_base0> >(void *, void *, void *);
+/* struct 0xbdd3 */ std::_Hash<std::_Uset_traits<int,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<int>,0> >::find<void>(void *);
+void std::unordered_set<int,std::hash<int>,std::equal_to<int>,std::allocator<int> >::unordered_set<int,std::hash<int>,std::equal_to<int>,std::allocator<int> >(void);
+void CThread::CThread(void);
+void std::_Alloc_construct_ptr<std::allocator<std::_List_node<int,void *> > >::~_Alloc_construct_ptr<std::allocator<std::_List_node<int,void *> > >(void);
+void std::_Hash<std::_Uset_traits<int,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<int>,0> >::~_Hash<std::_Uset_traits<int,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<int>,0> >(void);
+void std::_Hash_vec<std::allocator<std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<int> >,std::_Iterator_base0> > >::~_Hash_vec<std::allocator<std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<int> >,std::_Iterator_base0> > >(void);
+void std::_List_node_emplace_op2<std::allocator<std::_List_node<int,void *> > >::~_List_node_emplace_op2<std::allocator<std::_List_node<int,void *> > >(void);
+void std::list<int,std::allocator<int> >::~list<int,std::allocator<int> >(void);
+void std::unique_ptr<YYAL_SourceDebugInfo [0],std::default_delete<YYAL_SourceDebugInfo [0]> >::~unique_ptr<YYAL_SourceDebugInfo [0],std::default_delete<YYAL_SourceDebugInfo [0]> >(void);
+void std::unordered_set<int,std::hash<int>,std::equal_to<int>,std::allocator<int> >::~unordered_set<int,std::hash<int>,std::equal_to<int>,std::allocator<int> >(void);
+void * Audio_BusCreate(void);
+void Audio_BusDestroy(void *);
+/* struct 0xa416 */ Audio_BusGetEmitterIds(void *);
+double Audio_DbToLin(void);
+void * Audio_EffectStructCreate(void, void *);
+int32_t Audio_EmitterCreate(void);
+bool Audio_EmitterExists(void);
+void * Audio_EmitterGetBus(void);
+uint32_t Audio_EmitterGetListenerMask(void);
+/* struct 0xbf49 */ Audio_EngineGetDebugInfo(void *);
+void Audio_GenerateQueueEvents(void);
+/* struct 0xa416 */ Audio_GroupGetAssetIds(void);
+void Audio_GroupLoadCheck(void);
+/* struct 0x18a18 */ Audio_PlaybackPropsCreateFromObj(void *);
+int32_t Audio_QueueBuffer(void, void, void, void);
+int32_t Audio_QueueCreate(void, void, void, void);
+void Audio_Quit(void);
+bool Audio_SoundExists(void);
+void * Audio_SoundGetName(void);
+bool Audio_SoundIsPlaying(void);
+int32_t Audio_SoundPlay(void *);
+void Audio_Tick(void);
+void Audio_TickGroups(void);
+void Audio_TickInputs(void);
+/* type 0xb8b1 (LF_ENUM) */ CheckYYAL(void);
+void CThread::RequestTerminate(void);
+void ThrowOrPrintError(void *, /* type 0x0 */);
+void std::_Hash_vec<std::allocator<std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<int> >,std::_Iterator_base0> > >::_Assign_grow(void, void);
+void std::_Hash<std::_Uset_traits<int,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<int>,0> >::_Forced_rehash(/* type 0x23 */);
+void std::vector<int,std::allocator<int> >::_Reallocate_exactly(void);
+/* type 0x603 */ _aligned_alloc_yyal(/* type 0x23 */, /* type 0x23 */);
+void _free_yyal(/* type 0x603 */);
+void _log_yyal(void, void *);
+/* type 0x603 */ _malloc_yyal(/* type 0x23 */);
+/* type 0x603 */ _mutex_create_yyal(void);
+void _mutex_destroy_yyal(/* type 0x603 */);
+void _mutex_lock_yyal(/* type 0x603 */);
+void _mutex_unlock_yyal(/* type 0x603 */);
+void _thrd_create_yyal(void *, void *, /* type 0x603 */);
+/* type 0x603 */ _thrd_func_wrapper_yyal(/* type 0x603 */);
+void _thrd_join_yyal(void *);
+void _thrd_sleep_yyal(/* type 0x23 */);
+bool _thrd_stop_requested_yyal(void *);
+/* type 0x23 */ std::_Hash<std::_Uset_traits<int,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<int>,0> >::erase(void *);
+double std::numeric_limits<double>::min(void);
+int32_t printf(void *, /* type 0x0 */);

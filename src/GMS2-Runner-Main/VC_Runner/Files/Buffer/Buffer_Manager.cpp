@@ -1,0 +1,61 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\Files\Buffer\Buffer_Manager.cpp
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\Buffer_Manager.obj
+// 64 function symbol(s) attributed to this object.
+
+int32_t AllocBuffer(void);
+int32_t AllocateIBuffer(/* type 0x603 */, int32_t, bool, /* type 0x8229 (LF_ENUM) */, int32_t);
+int32_t AsyncSaveLoadCreateUpdateMap(void *, /* type 0x603 */, /* type 0x674 */);
+int32_t BufferLoadAsync(int32_t, void *, int32_t, int32_t, void *, /* type 0x13 */, /* type 0x603 */, bool, void *, bool);
+int32_t BufferSaveAsync(int32_t, void *, int32_t, int32_t, void *, /* type 0x13 */, /* type 0x603 */, bool, void *, bool);
+int32_t CreateBuffer(int32_t, /* type 0x8229 (LF_ENUM) */, int32_t);
+void F_BUFFER_Async_Group_Begin(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Async_Group_End(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Async_Group_Option(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Base64_Decode(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Base64_Decode_Ext(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Base64_Encode(void *, void *, void *, int32_t, void *);
+void F_BUFFER_CRC32(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Compress(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Copy(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Copy_From_Vertex_Buffer(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Copy_Stride(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Create(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Create_From_Vertex_Buffer(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Create_From_Vertex_Buffer_Ext(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Decompress(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Delete(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Exists(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Fill(void *, void *, void *, int32_t, void *);
+void F_BUFFER_GetAddress(void *, void *, void *, int32_t, void *);
+void F_BUFFER_GetSurface(void *, void *, void *, int32_t, void *);
+void F_BUFFER_GetSurfaceDepth(void *, void *, void *, int32_t, void *);
+void F_BUFFER_GetUsedSize(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Get_Alignment(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Get_Size(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Get_Type(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Load(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Load_Async(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Load_Ext(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Load_Partial(void *, void *, void *, int32_t, void *);
+void F_BUFFER_MD5(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Peek(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Poke(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Read(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Resize(void *, void *, void *, int32_t, void *);
+void F_BUFFER_SHA1(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Save(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Save_Async(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Save_Ext(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Seek(void *, void *, void *, int32_t, void *);
+void F_BUFFER_SetSurface(void *, void *, void *, int32_t, void *);
+void F_BUFFER_SetSurfaceDepth(void *, void *, void *, int32_t, void *);
+void F_BUFFER_SetUsedSize(void *, void *, void *, int32_t, void *);
+void F_BUFFER_SizeOf(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Tell(void *, void *, void *, int32_t, void *);
+void F_BUFFER_Write(void *, void *, void *, int32_t, void *);
+void FreeAllBuffers(void);
+void FreeIBuffer(int32_t);
+void InitBufferFunctions(void);
+int32_t KickAsyncBuffer(bool, void *, void *, bool, bool, void *, /* type 0x603 */, bool, bool);
+void ASYNC_SAVE_LOAD_REQ_CONTEXT::Process(void *);

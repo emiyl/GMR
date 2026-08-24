@@ -1,0 +1,66 @@
+// Reconstructed from PDB debug info.
+// Original path : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\spine-c\src\spine\Animation.c
+// Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\Animation.obj
+// 61 function symbol(s) attributed to this object.
+
+void _spAlphaTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spAttachmentTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spAttachmentTimeline_dispose(void *);
+void _spCurveTimeline_dispose(void *);
+float _spCurveTimeline_getBezierValue(void *, float, int32_t, int32_t, int32_t);
+void _spCurveTimeline_setBezier(void *, int32_t, int32_t, float, float, float, float, float, float, float, float, float);
+void _spDeformTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spDeformTimeline_dispose(void *);
+void _spDeformTimeline_setBezier(void *, int32_t, int32_t, float, float, float, float, float, float, float, float, float);
+void _spDrawOrderTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spDrawOrderTimeline_dispose(void *);
+void _spEventTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spEventTimeline_dispose(void *);
+void _spIkConstraintTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spPathConstraintMixTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spPathConstraintPositionTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spPathConstraintSpacingTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spRGBA2Timeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spRGBATimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spRGBTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spRotateTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spScaleTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spScaleXTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spScaleYTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spSetAttachment(void *, void *, void *, void *);
+void _spShearTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spShearXTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spShearYTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spTransformConstraintTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spTranslateTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spTranslateXTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void _spTranslateYTimeline_apply(void *, void *, float, float, void *, /* type 0x674 */, float, /* type 0x99f3 (LF_ENUM) */, /* type 0x99bc (LF_ENUM) */);
+void * spAlphaTimeline_create(int32_t, int32_t, int32_t);
+void * spAnimation_create(void *, void *, float);
+void spAnimation_dispose(void *);
+void * spAttachmentTimeline_create(int32_t, int32_t);
+float spCurveTimeline1_getCurveValue(void *, float);
+void * spDeformTimeline_create(int32_t, int32_t, int32_t, int32_t, void *);
+void spDeformTimeline_setFrame(void *, int32_t, float, /* type 0x640 */);
+void * spDrawOrderTimeline_create(int32_t, int32_t);
+void * spEventTimeline_create(int32_t);
+void * spIkConstraintTimeline_create(int32_t, int32_t, int32_t);
+void * spPathConstraintMixTimeline_create(int32_t, int32_t, int32_t);
+void * spPathConstraintPositionTimeline_create(int32_t, int32_t, int32_t);
+void * spPathConstraintSpacingTimeline_create(int32_t, int32_t, int32_t);
+void * spRGBA2Timeline_create(int32_t, int32_t, int32_t);
+void * spRGBATimeline_create(int32_t, int32_t, int32_t);
+void * spRGBTimeline_create(int32_t, int32_t, int32_t);
+void * spRotateTimeline_create(int32_t, int32_t, int32_t);
+void * spScaleTimeline_create(int32_t, int32_t, int32_t);
+void * spScaleXTimeline_create(int32_t, int32_t, int32_t);
+void * spScaleYTimeline_create(int32_t, int32_t, int32_t);
+void * spShearTimeline_create(int32_t, int32_t, int32_t);
+void * spShearXTimeline_create(int32_t, int32_t, int32_t);
+void * spShearYTimeline_create(int32_t, int32_t, int32_t);
+void spTimelineArray_add(void *, void *);
+void * spTimelineArray_create(int32_t);
+void * spTransformConstraintTimeline_create(int32_t, int32_t, int32_t);
+void * spTranslateTimeline_create(int32_t, int32_t, int32_t);
+void * spTranslateXTimeline_create(int32_t, int32_t, int32_t);
+void * spTranslateYTimeline_create(int32_t, int32_t, int32_t);
