@@ -3,6 +3,8 @@
 // Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\GameMakerM.obj
 // 15 function symbol(s) attributed to this object.
 
+#include <stdint.h>
+
 void CreateMiniDump(void *);
 void DrawLogo(int32_t);
 void * GetFilePrePend(void);

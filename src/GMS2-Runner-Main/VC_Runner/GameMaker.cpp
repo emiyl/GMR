@@ -5,12 +5,12 @@
 
 #include <stdint.h>
 
-void BeginToEnd(void);
-bool DoTheWork(void);
-void EndOfGame(void);
+void BeginToEnd();
+bool DoTheWork();
+void EndOfGame();
 int32_t GetNextCmd(int32_t, char*);
-bool Init(void);
-void InitGMLFunctions(void);
+bool Init();
+void InitGMLFunctions();
 void ProcessCommandLine(char*);
-void Quit(void);
-void RunGame(void);
+void Quit();
+void RunGame();
