@@ -10,7 +10,7 @@ bool Font_Delete(int32_t);
 void Font_End_Rendering_SDF(void);
 bool Font_Exists(int32_t);
 void Font_Init(void);
-bool Font_Load(uint8_t*, uint32_t,uint8_t*);
+bool Font_Load(uint8_t*, uint32_t, uint8_t*);
 void * Font_Name(int32_t);
 bool Font_ReplaceSprite(int32_t, int32_t, int32_t, bool, int32_t);
 void Font_Setup_SDF_Shader(void);

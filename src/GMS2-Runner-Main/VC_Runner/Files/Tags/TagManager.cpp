@@ -13,4 +13,4 @@ void CHashMap<int,STagList,3>::Init(void);
 void CHashMap<char const *,char const *,3>::Init(void);
 void CHashMap<int,STagList,3>::Insert(int32_t, /* struct 0xc0ba */);
 void CHashMap<char const *,char const *,3>::Insert(void *, void *);
-bool CTagManager::LoadFromChunk(uint8_t*, uint32_t,uint8_t*);
+bool CTagManager::LoadFromChunk(uint8_t*, uint32_t, uint8_t*);

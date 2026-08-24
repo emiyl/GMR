@@ -9,7 +9,7 @@ void Debug_AddTag(void, void *, /* type 0x0 */);
 /* struct 0x6ed5 */ Debug_ExecuteBreakCondition(void *);
 void Debug_FreeTags(void);
 void Debug_GetBuffers(void *, void *);
-void Debug_GetData(/* type 0x68a8 (LF_ENUM) */, void *,uint8_t*, int32_t);
+void Debug_GetData(/* type 0x68a8 (LF_ENUM) */, void *, uint8_t*, int32_t);
 void Debug_GetPing(void *, void *);
 void Debug_GetSelectedInstance(void *);
 void Debug_GetStructures(void *, void *);

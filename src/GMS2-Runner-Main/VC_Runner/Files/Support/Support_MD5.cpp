@@ -4,5 +4,5 @@
 // 3 function symbol(s) attributed to this object.
 
 void MD5Final(void *);
-void MD5Update(void *,uint8_t*, uint32_t);
+void MD5Update(void *, uint8_t*, uint32_t);
 void Transform(/* type 0x675 */, /* type 0x675 */);

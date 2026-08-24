@@ -13,7 +13,7 @@ void std::_List_node_emplace_op2<std::allocator<std::_List_node<std::pair<int co
 void std::list<std::pair<int const ,CInstance *>,std::allocator<std::pair<int const ,CInstance *> > >::~list<std::pair<int const ,CInstance *>,std::allocator<std::pair<int const ,CInstance *> > >(void);
 void std::unordered_map<int,CInstance *,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<int const ,CInstance *> > >::~unordered_map<int,CInstance *,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<int const ,CInstance *> > >(void);
 bool Rollback::DeserializeInstances(void *, void *);
-bool Rollback::LoadManagedInstances(void *,uint8_t*, int32_t);
+bool Rollback::LoadManagedInstances(void *, uint8_t*, int32_t);
 bool Rollback::SaveManagedInstances(void *, void *, void *, void *);
 void std::_Hash_vec<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<int const ,CInstance *> > > > > >::_Assign_grow(void, void);
 void std::_Hash<std::_Umap_traits<int,CInstance *,std::_Uhash_compare<int,std::hash<int>,std::equal_to<int> >,std::allocator<std::pair<int const ,CInstance *> >,0> >::_Forced_rehash(/* type 0x23 */);

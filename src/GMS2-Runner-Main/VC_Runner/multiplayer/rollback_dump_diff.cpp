@@ -26,7 +26,7 @@ void Rollback::DumpDiff::CheckAndPrintDiffInArray(int32_t, void *, void *, void 
 void Rollback::DumpDiff::CheckAndPrintDiffInHashMap(int32_t, void *, void *, void *, void *);
 void Rollback::DumpDiff::CheckAndPrintDiffInObj(int32_t, void *, void *, void *, void *);
 void Rollback::DumpDiff::CheckAndPrintDiffInRVar(int32_t, void *, void *, void *, void *);
-void Rollback::DumpDiff::Show(uint8_t*, int32_t,uint8_t*, int32_t);
+void Rollback::DumpDiff::Show(uint8_t*, int32_t, uint8_t*, int32_t);
 void std::_Hash_vec<std::allocator<std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<RValue *> >,std::_Iterator_base0> > >::_Assign_grow(void, void);
 void std::_Hash<std::_Uset_traits<RValue *,std::_Uhash_compare<RValue *,std::hash<RValue *>,std::equal_to<RValue *> >,std::allocator<RValue *>,0> >::_Forced_rehash(/* type 0x23 */);
 /* type 0x13 */ std::basic_streambuf<char,std::char_traits<char> >::_Gnavail(void);

@@ -12,7 +12,7 @@ void cArray<CRoom *>::Reset(void);
 int32_t Room_Add(void);
 int32_t Room_Duplicate(int32_t);
 bool Room_Exists(int32_t);
-bool Room_Load(uint8_t*, uint32_t,uint8_t*);
+bool Room_Load(uint8_t*, uint32_t, uint8_t*);
 void * Room_Name(int32_t);
 bool isFirstRoom(void *);
 void cARRAY_MEMORY<char const *>::setLength(int32_t);

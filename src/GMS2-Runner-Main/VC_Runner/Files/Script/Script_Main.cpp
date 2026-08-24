@@ -31,7 +31,7 @@ void * Script_FindCallYYC(void *);
 void * Script_FindCompileIndex(int32_t);
 int32_t Script_Find_Id(void *);
 void * Script_Id_Name(int32_t);
-bool Script_Load(uint8_t*, uint32_t,uint8_t*);
+bool Script_Load(uint8_t*, uint32_t, uint8_t*);
 bool Script_Perform(int32_t, void *, void *, int32_t, void *, void *);
 bool Script_Prepare(void);
 void std::_Hash_vec<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > > > > >::_Assign_grow(void, void);

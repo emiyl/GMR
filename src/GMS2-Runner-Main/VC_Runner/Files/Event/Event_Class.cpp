@@ -4,4 +4,4 @@
 // 3 function symbol(s) attributed to this object.
 
 void CEvent::Execute(void *, void *);
-bool CEvent::LoadFromChunk(void *,uint8_t*);
+bool CEvent::LoadFromChunk(void *, uint8_t*);

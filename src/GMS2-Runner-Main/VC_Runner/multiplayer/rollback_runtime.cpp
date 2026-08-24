@@ -37,9 +37,9 @@ bool Rollback::GMSessionListener::decompress_game_state(uint8_t*, uint32_t, void
 /* type 0x23 */ std::_Tree<std::_Tmap_traits<int,int,std::less<int>,std::allocator<std::pair<int const ,int> >,0> >::erase(void *);
 void Rollback::GMSessionListener::free_buffer(uint8_t*);
 bool Rollback::GMSessionListener::is_ready_to_start(void);
-bool Rollback::GMSessionListener::load_game_state(uint8_t*, int32_t,uint8_t*, int32_t);
-bool Rollback::GMSessionListener::log_game_state(void *,uint8_t*, int32_t);
-bool Rollback::GMSessionListener::log_game_state_diff(uint8_t*, int32_t,uint8_t*, int32_t);
+bool Rollback::GMSessionListener::load_game_state(uint8_t*, int32_t, uint8_t*, int32_t);
+bool Rollback::GMSessionListener::log_game_state(void *, uint8_t*, int32_t);
+bool Rollback::GMSessionListener::log_game_state_diff(uint8_t*, int32_t, uint8_t*, int32_t);
 void Rollback::log_game_state_summary(uint8_t*, int32_t);
 bool Rollback::GMSessionListener::on_event(void *);
 bool Rollback::GMSessionListener::save_game_state(void *, void *, void *, void *);

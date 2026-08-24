@@ -27,7 +27,7 @@ bool Extension_Finalize(void);
 int32_t Extension_FindName(void *);
 void * Extension_Function_GetName(int32_t);
 bool Extension_Initialize(void);
-bool Extension_Load(uint8_t*, uint32_t,uint8_t*);
+bool Extension_Load(uint8_t*, uint32_t, uint8_t*);
 void Extension_Option_GetValue(int32_t, void *, void *);
 void Extension_PrePrepare(void);
 bool F_DsMapAdd_Internal_wrapper(int32_t, void *, /* type 0x13 */);

@@ -6,7 +6,7 @@
 uint8_t* ReadGIFFile(/* type 0x603 */, int32_t, /* type 0x674 */, /* type 0x674 */, bool, bool);
 bool ReadGIFFileAsync(/* type 0x603 */, int32_t, void *, /* type 0x13 */, int32_t, bool);
 void ReadGIFFileAsyncThreadFunc(/* type 0x13 */);
-int32_t ReadGifData(void *,uint8_t*, int32_t);
+int32_t ReadGifData(void *, uint8_t*, int32_t);
 uint8_t* ReadJPEGFile(/* type 0x603 */, int32_t, /* type 0x674 */, /* type 0x674 */, bool);
 bool ReadJPEGFileAsync(/* type 0x603 */, int32_t, void *, /* type 0x13 */, int32_t, bool);
 void ReadJPEGFileAsyncThreadFunc(/* type 0x13 */);

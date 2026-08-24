@@ -14,4 +14,4 @@ bool ReadPNGHeader(void *);
 uint8_t* ReadQOIFFile(/* type 0x603 */, int32_t, /* type 0x674 */, /* type 0x674 */, bool);
 bool ReadQOIFFileAsync(/* type 0x603 */, int32_t, void *, /* type 0x13 */, int32_t, bool);
 void ReadQOIFileAsyncThreadFunc(/* type 0x13 */);
-void pngReadFn(void *,uint8_t*, /* type 0x23 */);
+void pngReadFn(void *, uint8_t*, /* type 0x23 */);
