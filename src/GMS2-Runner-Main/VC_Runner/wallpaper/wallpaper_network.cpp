@@ -6,4 +6,4 @@
 void Wallpaper::NetworkManager::HandleMessage(void *);
 void Wallpaper::NetworkManager::InitSocket(void);
 void Wallpaper::NetworkManager::Process(void);
-int32_t Wallpaper::NetworkManager::Send(/* type 0x620 */, int32_t);
+int32_t Wallpaper::NetworkManager::Send(uint8_t*, int32_t);

@@ -21,6 +21,6 @@ int32_t Sprite_Add_Async(void *, int32_t, int32_t, int32_t, bool);
 int32_t Sprite_CreatePlaceholder(int32_t);
 bool Sprite_Delete(int32_t);
 int32_t Sprite_Duplicate(int32_t);
-bool Sprite_Load(/* type 0x620 */, int32_t, /* type 0x620 */);
+bool Sprite_Load(uint8_t*, int32_t,uint8_t*);
 void * Sprite_Name(int32_t);
 bool Sprite_Replace(int32_t, void *, int32_t, bool, bool, bool, bool, int32_t, int32_t);

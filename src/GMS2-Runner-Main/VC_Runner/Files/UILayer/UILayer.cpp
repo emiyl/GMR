@@ -68,7 +68,7 @@ bool std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char
 /* struct 0x6ec7 */ UILayers_Calculate_Initial_View_Rect(void);
 void * UILayers_Get_By_Layer(void *);
 void * UILayers_Get_By_Name(void *);
-bool UILayers_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+bool UILayers_Load(uint8_t*, uint32_t,uint8_t*);
 void WriteUILayerNodeDebugData(void *, void *, void *, int32_t);
 void std::vector<std::unique_ptr<gm::uilayer::UILayerElement,std::default_delete<gm::uilayer::UILayerElement> >,std::allocator<std::unique_ptr<gm::uilayer::UILayerElement,std::default_delete<gm::uilayer::UILayerElement> > > >::_Change_array(void *, void, void);
 void * std::_Func_impl_no_alloc<<lambda_005456bed1f7720abf1783daab1a0a01>,char const *,RValue const *,int>::_Copy(/* type 0x603 */);

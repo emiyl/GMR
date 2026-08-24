@@ -87,5 +87,5 @@ void CCamera::Update2D(void);
 void ValidateValidScriptValue(void *, void *);
 bool WritePNG32(char*, /* type 0x603 */, int32_t, int32_t, int32_t);
 void pngFlushFn(void *);
-void pngWriteBufferFn(void *, /* type 0x620 */, /* type 0x23 */);
-void pngWriteFn(void *, /* type 0x620 */, /* type 0x23 */);
+void pngWriteBufferFn(void *,uint8_t*, /* type 0x23 */);
+void pngWriteFn(void *,uint8_t*, /* type 0x23 */);

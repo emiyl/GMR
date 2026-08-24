@@ -5,6 +5,6 @@
 
 int32_t Path_Add(void);
 int32_t Path_Duplicate(int32_t);
-bool Path_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+bool Path_Load(uint8_t*, uint32_t,uint8_t*);
 void * Path_Name(int32_t);
 void Path_Quit(void);

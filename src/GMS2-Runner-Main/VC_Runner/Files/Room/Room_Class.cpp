@@ -29,7 +29,7 @@ void CRoom::DeSerialise(void *, bool);
 void CViewGM::DeSerialise(void *);
 bool List<CInstance *>::Delete(void *);
 void CRoom::DeleteInstance(void *, bool, bool, bool);
-bool CRoom::LoadFromChunk(void *, /* type 0x620 */);
+bool CRoom::LoadFromChunk(void *,uint8_t*);
 void CRoom::RemoveDeadInstance(void *);
 void CRoom::RemoveMarked(bool);
 void CBackGM2::Serialise(void *);

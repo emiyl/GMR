@@ -9,7 +9,7 @@ int32_t VideoPlayer::Draw(/* type 0x603 */, int32_t, int32_t);
 /* type 0x8 */ GetDefaultStride(void *, /* type 0x612 */);
 /* type 0x8 */ GetVideoSourceFromFile(void *, void *, void *);
 /* type 0x8 */ VideoPlayer::Play(void *);
-void AudioQueueHandler::QueueFrame(/* type 0x620 */, /* type 0x22 */, void *);
+void AudioQueueHandler::QueueFrame(uint8_t*, /* type 0x22 */, void *);
 int32_t VideoPlayer::Tick(void);
 void TryLoadDll(void *);
 void YYVideoOpen(void *);

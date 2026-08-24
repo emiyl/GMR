@@ -7,5 +7,5 @@ void CTimeLine::CTimeLine(void);
 bool cArray<CTimeLine *>::ClearElement(/* type 0x23 */);
 bool cOwningArrayDelete<CTimeLine *>::ClearElement(/* type 0x23 */);
 void cArray<CTimeLine *>::Reset(void);
-bool TimeLine_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+bool TimeLine_Load(uint8_t*, uint32_t,uint8_t*);
 void cArray<CTimeLine *>::setLength(/* type 0x23 */);

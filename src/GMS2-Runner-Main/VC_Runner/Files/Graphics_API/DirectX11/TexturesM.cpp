@@ -6,9 +6,9 @@
 void Texture::Texture(int32_t, int32_t, int32_t);
 /* type 0x736a (LF_ENUM) */ ConvertInternalToD3DTexFormat(/* type 0x72fd (LF_ENUM) */);
 bool Graphics::CopySurface(/* type 0x603 */, int32_t, int32_t, int32_t, /* type 0x603 */, int32_t, /* type 0x72fd (LF_ENUM) */);
-/* type 0x603 */ Graphics::CreateTexture(int32_t, int32_t, int32_t, /* type 0x7362 (LF_ENUM) */, /* type 0x72fd (LF_ENUM) */, /* type 0x620 */);
-/* type 0x603 */ Graphics::CreateTextureFromData(/* type 0x620 */, uint32_t, int32_t, int32_t, void *, /* type 0x72fd (LF_ENUM) */, /* type 0x7362 (LF_ENUM) */);
-/* type 0x603 */ Graphics::CreateTextureFromFile(/* type 0x620 */, uint32_t, void *, /* type 0x72fd (LF_ENUM) */, bool);
+/* type 0x603 */ Graphics::CreateTexture(int32_t, int32_t, int32_t, /* type 0x7362 (LF_ENUM) */, /* type 0x72fd (LF_ENUM) */,uint8_t*);
+/* type 0x603 */ Graphics::CreateTextureFromData(uint8_t*, uint32_t, int32_t, int32_t, void *, /* type 0x72fd (LF_ENUM) */, /* type 0x7362 (LF_ENUM) */);
+/* type 0x603 */ Graphics::CreateTextureFromFile(uint8_t*, uint32_t, void *, /* type 0x72fd (LF_ENUM) */, bool);
 void Graphics::FlushTexture(/* type 0x603 */);
 void FreeTexInfo(void *);
 void Graphics::FreeTexture(/* type 0x603 */);

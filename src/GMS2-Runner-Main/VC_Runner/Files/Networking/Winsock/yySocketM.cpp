@@ -6,7 +6,7 @@
 void std::_Alloc_construct_ptr<std::allocator<std::_Tree_node<unsigned int,void *> > >::~_Alloc_construct_ptr<std::allocator<std::_Tree_node<unsigned int,void *> > >(void);
 int32_t yySocket::AvoidTimeWait(void);
 int32_t yySocket::Bind(void *, int32_t);
-int32_t yySocket::Broadcast(int32_t, /* type 0x620 */, int32_t);
+int32_t yySocket::Broadcast(int32_t,uint8_t*, int32_t);
 bool yySocket::CheckMulticastScopes(void);
 int32_t yySocket::Connect(void *, int32_t);
 int32_t yySocket::CreateSocket(void);

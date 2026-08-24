@@ -3,8 +3,8 @@
 // Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\jdmarker.obj
 // 13 function symbol(s) attributed to this object.
 
-void examine_app0(void *, /* type 0x620 */, uint32_t, /* type 0x12 */);
-void examine_app14(void *, /* type 0x620 */, uint32_t, /* type 0x12 */);
+void examine_app0(void *,uint8_t*, uint32_t, /* type 0x12 */);
+void examine_app14(void *,uint8_t*, uint32_t, /* type 0x12 */);
 unsigned char get_dht(void *);
 unsigned char get_dqt(void *);
 unsigned char get_interesting_appn(void *);

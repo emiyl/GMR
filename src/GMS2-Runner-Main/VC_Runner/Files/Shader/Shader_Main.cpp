@@ -25,4 +25,4 @@ void F_Texture_Get_Texel_Width(void *, void *, void *, int32_t, void *);
 void FlushShader(void);
 void SetShaderUniforms_Fog(void);
 int32_t Shader_Find(void *);
-bool Shader_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+bool Shader_Load(uint8_t*, uint32_t,uint8_t*);

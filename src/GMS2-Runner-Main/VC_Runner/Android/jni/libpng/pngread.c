@@ -8,5 +8,5 @@ void png_destroy_read_struct(void *, void *, void *);
 void png_read_destroy(void *, void *, void *);
 void png_read_image(void *, void *);
 void png_read_info(void *, void *);
-void png_read_row(void *, uchar* uint8_t*, uchar* uint8_t*);
+void png_read_row(void *,uint8_t*,uint8_t*);
 void png_read_update_info(void *, void *);

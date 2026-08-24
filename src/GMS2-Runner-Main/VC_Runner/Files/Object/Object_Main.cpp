@@ -8,6 +8,6 @@ void Hash<CObjectGM>::Add(uint32_t, void *);
 void Hash<CObjectGM>::Clear(/* type 0x6f9f (LF_ENUM) */);
 void CHashMap<int,CObjectGM *,2>::Insert(int32_t, void *);
 bool Object_Exists(int32_t);
-bool Object_Load(/* type 0x620 */, uint32_t, /* type 0x620 */);
+bool Object_Load(uint8_t*, uint32_t,uint8_t*);
 void * Object_Name(int32_t);
 void PatchParents(void);

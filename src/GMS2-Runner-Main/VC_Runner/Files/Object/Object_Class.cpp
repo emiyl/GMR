@@ -19,7 +19,7 @@ void CHashMap<int,CObjectGM *,2>::Init(void);
 void CHashMap<unsigned __int64,CEvent *,3>::Init(void);
 void CHashMap<unsigned __int64,CEvent *,3>::Insert(/* type 0x23 */, void *);
 bool CObjectGM::IsDecendentOf(int32_t);
-bool CObjectGM::LoadFromChunk(void *, /* type 0x620 */);
+bool CObjectGM::LoadFromChunk(void *,uint8_t*);
 void WithObjIterator::Next(void);
 bool SLinkedList<CInstance>::Remove(void *);
 void CObjectGM::RemoveInstance(void *);

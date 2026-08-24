@@ -5,5 +5,5 @@
 
 int32_t CHashMap<unsigned char *,VMBuffer *,3>::FindPosition(void *);
 void CHashMap<unsigned char *,VMBuffer *,3>::Init(void);
-void CHashMap<unsigned char *,VMBuffer *,3>::Insert(/* type 0x620 */, void *);
+void CHashMap<unsigned char *,VMBuffer *,3>::Insert(uint8_t*, void *);
 void VMBuffer::convertBuffer(void);

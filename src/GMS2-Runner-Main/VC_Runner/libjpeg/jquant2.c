@@ -4,8 +4,8 @@
 // 14 function symbol(s) attributed to this object.
 
 void fill_inverse_cmap(void *, int32_t, int32_t, int32_t);
-void find_best_colors(void *, int32_t, int32_t, int32_t, int32_t, /* type 0x620 */, /* type 0x620 */);
-int32_t find_nearby_colors(void *, int32_t, int32_t, int32_t, /* type 0x620 */);
+void find_best_colors(void *, int32_t, int32_t, int32_t, int32_t,uint8_t*,uint8_t*);
+int32_t find_nearby_colors(void *, int32_t, int32_t, int32_t,uint8_t*);
 void finish_pass1(void *);
 void finish_pass2(void *);
 void init_error_limit(void *);
