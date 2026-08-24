@@ -25,8 +25,8 @@ void std::vector<SMessage,std::allocator<SMessage> >::~vector<SMessage,std::allo
 void std::vector<YYTPageEntry,std::allocator<YYTPageEntry> >::~vector<YYTPageEntry,std::allocator<YYTPageEntry> >(void);
 void AddRValueToArray(void *, void *);
 int32_t ConvertSurfColToRValue(void *, /* type 0x603 */, /* type 0x72fd (LF_ENUM) */);
-void CreateArray(void *, int32_t, /* type 0x0 */);
-void CreateArrayValOrString(void *, int32_t, /* type 0x0 */);
+void CreateArray(void *, int32_t, char *);
+void CreateArrayValOrString(void *, int32_t, char *);
 void F_ColorGetBlue(void *, void *, void *, int32_t, void *);
 void F_ColorGetGreen(void *, void *, void *, int32_t, void *);
 void F_ColorGetHue(void *, void *, void *, int32_t, void *);

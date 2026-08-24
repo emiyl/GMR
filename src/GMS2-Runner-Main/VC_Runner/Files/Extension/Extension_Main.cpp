@@ -33,7 +33,7 @@ void Extension_PrePrepare(void);
 bool F_DsMapAdd_Internal_wrapper(int32_t, void *, /* type 0x13 */);
 void * FilePrePend(void);
 bool IsRunningFromIDE(void);
-void ReleaseConsoleOutput(void *, /* type 0x0 */);
+void ReleaseConsoleOutput(void *, char *);
 bool LoadSave::SaveFileExistsForExtension(void *);
 void StructAddBool(void *, void *, bool);
 void StructAddDouble(void *, void *, double);

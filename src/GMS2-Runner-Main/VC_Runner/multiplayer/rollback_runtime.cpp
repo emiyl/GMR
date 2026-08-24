@@ -43,4 +43,4 @@ bool Rollback::GMSessionListener::log_game_state_diff(uint8_t*, int32_t, uint8_t
 void Rollback::log_game_state_summary(uint8_t*, int32_t);
 bool Rollback::GMSessionListener::on_event(void *);
 bool Rollback::GMSessionListener::save_game_state(void *, void *, void *, void *);
-void Rollback::show_message_in_runner(void *, /* type 0x0 */);
+void Rollback::show_message_in_runner(void *, char *);

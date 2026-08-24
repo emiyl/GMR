@@ -327,4 +327,4 @@ void CInstance::SetTimelineIndex(int32_t);
 void CInstance::SetTimelinePosition(float);
 void CInstance::SetTimelineSpeed(float);
 void SetWorkingDirectory(void);
-int32_t fprintf(void *, void *, /* type 0x0 */);
+int32_t fprintf(void *, void *, char *);

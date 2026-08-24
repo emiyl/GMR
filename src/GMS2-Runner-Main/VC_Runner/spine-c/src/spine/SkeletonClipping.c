@@ -7,4 +7,4 @@ int32_t _clip(void *, float, float, float, float, float, float, void *, void *);
 void _makeClockwise(void *);
 int32_t spSkeletonClipping_clipStart(void *, void *, void *);
 void spSkeletonClipping_clipTriangles(void *, /* type 0x640 */, int32_t, /* type 0x621 */, int32_t, /* type 0x640 */, int32_t);
-void * spSkeletonClipping_create(/* type 0x0 */);
+void * spSkeletonClipping_create(char *);

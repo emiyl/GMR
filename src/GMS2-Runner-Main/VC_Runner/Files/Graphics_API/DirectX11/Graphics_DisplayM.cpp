@@ -24,4 +24,4 @@ void Graphics::SceneEnd(void);
 void DX::ThrowIfFailed(/* type 0x8 */, void *, void *, int32_t);
 bool WaitForVsyncs(int32_t);
 /* type 0x623 */ __local_stdio_printf_options(void);
-int32_t sprintf(void *, void *, /* type 0x0 */);
+int32_t sprintf(void *, void *, char *);

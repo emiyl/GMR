@@ -57,4 +57,4 @@ void std::queue<WinHTTPWebSocketClient::QueuedMessage,std::deque<WinHTTPWebSocke
 void std::vector<unsigned char,std::allocator<unsigned char> >::resize(void);
 /* struct 0x1565 */ string_to_wstring(void *);
 /* struct 0x96ff */ std::chrono::time_point<std::chrono::steady_clock,std::chrono::duration<__int64,std::ratio<1,1000000000> > >::time_since_epoch(void);
-int32_t swprintf(void *, void, void *, /* type 0x0 */);
+int32_t swprintf(void *, void, void *, char *);

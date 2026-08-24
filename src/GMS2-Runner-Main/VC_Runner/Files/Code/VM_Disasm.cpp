@@ -12,5 +12,5 @@ int32_t VM::DisasmOne(void *, void *, int32_t, void *);
 void CHashMap<void *,SScriptCacheInfo *,3>::Init(void);
 void CHashMap<void *,SScriptCacheInfo *,3>::Insert(/* type 0x603 */, void *);
 void * Instruction2String(unsigned char, uint32_t);
-void TmpStringBuilder::Output(void *, /* type 0x0 */);
+void TmpStringBuilder::Output(void *, char *);
 int32_t ParamSize(int32_t);

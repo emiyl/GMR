@@ -10,7 +10,7 @@ void * BZ2_bzlibVersion(void);
 int32_t BZ2_decompress(void *);
 void BZ2_hbCreateDecodeTables(/* type 0x674 */, /* type 0x674 */, /* type 0x674 */, uint8_t*, int32_t, int32_t, int32_t);
 int32_t BZ2_indexIntoF(int32_t, /* type 0x674 */);
-int32_t _snprintf(void *, void, void *, /* type 0x0 */);
+int32_t _snprintf(void *, void, void *, char *);
 /* type 0x603 */ default_bzalloc(/* type 0x603 */, int32_t, int32_t);
 void default_bzfree(/* type 0x603 */, /* type 0x603 */);
 void png_check_IHDR(void *, uint32_t, uint32_t, int32_t, int32_t, int32_t, int32_t, int32_t);

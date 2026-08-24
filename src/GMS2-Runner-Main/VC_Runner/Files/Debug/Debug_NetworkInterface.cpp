@@ -5,7 +5,7 @@
 
 void VMBuffer::~VMBuffer(void);
 void DebugUpdateSelectedInstance(void);
-void Debug_AddTag(void, void *, /* type 0x0 */);
+void Debug_AddTag(void, void *, char *);
 /* struct 0x6ed5 */ Debug_ExecuteBreakCondition(void *);
 void Debug_FreeTags(void);
 void Debug_GetBuffers(void *, void *);

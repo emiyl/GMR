@@ -6,6 +6,6 @@
 void tagIConsole::~tagIConsole(void);
 bool DummyConsole::Create(void *, bool);
 uint32_t InitRandom(uint32_t);
-void DummyConsole::Output(void *, /* type 0x0 */);
+void DummyConsole::Output(void *, char *);
 uint32_t YYRandom(void);
 double fYYRandom(double);

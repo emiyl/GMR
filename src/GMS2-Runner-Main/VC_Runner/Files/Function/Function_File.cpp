@@ -101,4 +101,4 @@ void json_parse_ext(void *, void *, void *);
 void json_parse_to_map(void *, void *);
 void json_value(void *, void *);
 /* type 0x623 */ __local_stdio_scanf_options(void);
-int32_t sscanf(void *, void *, /* type 0x0 */);
+int32_t sscanf(void *, void *, char *);

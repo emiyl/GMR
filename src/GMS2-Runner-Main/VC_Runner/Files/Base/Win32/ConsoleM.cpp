@@ -4,5 +4,5 @@
 // 8 function symbol(s) attributed to this object.
 
 bool TConsole::Create(void *, bool);
-void TConsole::Output(void *, /* type 0x0 */);
-int32_t sprintf_s(void *, void, void *, /* type 0x0 */);
+void TConsole::Output(void *, char *);
+int32_t sprintf_s(void *, void, void *, char *);

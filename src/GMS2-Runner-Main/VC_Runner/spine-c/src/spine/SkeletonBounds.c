@@ -4,7 +4,7 @@
 // 5 function symbol(s) attributed to this object.
 
 void * spSkeletonBounds_containsPoint(void *, float, float);
-void * spSkeletonBounds_create(/* type 0x0 */);
+void * spSkeletonBounds_create(char *);
 void spSkeletonBounds_dispose(void *);
 void * spSkeletonBounds_intersectsSegment(void *, float, float, float, float);
 void spSkeletonBounds_update(void *, void *, int32_t);

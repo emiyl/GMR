@@ -386,4 +386,4 @@ void std::vector<gm::uilayer::EnumConstant<enum gm::uilayer::Origin>,std::alloca
 int32_t YYSlot<YYObjectBase>::allocSlot(void *);
 void std::_Hash<std::_Uset_traits<CInstance *,std::_Uhash_compare<CInstance *,std::hash<CInstance *>,std::equal_to<CInstance *> >,std::allocator<CInstance *>,0> >::clear(void);
 void std::_Hash<std::_Uset_traits<CLayerElementBase *,std::_Uhash_compare<CLayerElementBase *,std::hash<CLayerElementBase *>,std::equal_to<CLayerElementBase *> >,std::allocator<CLayerElementBase *>,0> >::clear(void);
-int32_t snprintf(void *, void, void *, /* type 0x0 */);
+int32_t snprintf(void *, void, void *, char *);

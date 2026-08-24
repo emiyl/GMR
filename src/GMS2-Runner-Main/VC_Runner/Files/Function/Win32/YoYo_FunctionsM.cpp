@@ -12,4 +12,4 @@ double GetVersionM(void);
 double OpenURL(void *);
 int32_t Os_Get_Info(void);
 void YYUDID(void *);
-int32_t swprintf_s(void *, void, void *, /* type 0x0 */);
+int32_t swprintf_s(void *, void, void *, char *);

@@ -5,7 +5,7 @@
 
 int32_t ai_readEntry(void *, void *);
 void * spAtlasPage_create(void *, void *);
-void * spAtlasRegion_create(/* type 0x0 */);
+void * spAtlasRegion_create(char *);
 void * spAtlas_create(void *, int32_t, void *, /* type 0x603 */);
 void spAtlas_dispose(void *);
 void * spAtlas_findRegion(void *, void *);

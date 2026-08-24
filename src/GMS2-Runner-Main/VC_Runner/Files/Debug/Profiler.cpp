@@ -9,6 +9,6 @@ int32_t CProfiler::FindOrCreateNode(int32_t, int32_t);
 void CProfiler::Init(void *, int32_t);
 void CProfiler::Pop(void);
 void CProfiler::Push(int32_t, int32_t);
-void WriteLine(void *, /* type 0x0 */);
+void WriteLine(void *, char *);
 void CProfiler::WriteProfileData(void *);
 int32_t cmpDumpNode(void *, void *);

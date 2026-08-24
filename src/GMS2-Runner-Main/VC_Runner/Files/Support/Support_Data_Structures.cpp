@@ -28,7 +28,7 @@ void CDS_Map::Clear(void);
 void CDS_Priority::Clear(void);
 void CDS_Queue::Clear(void);
 void CDS_Stack::Clear(void);
-int32_t CreateDsMap(int32_t, /* type 0x0 */);
+int32_t CreateDsMap(int32_t, char *);
 void CDS_Priority::Delete(void *);
 void CDS_Priority::DeleteMax(void *);
 void CDS_Priority::DeleteMin(void *);
