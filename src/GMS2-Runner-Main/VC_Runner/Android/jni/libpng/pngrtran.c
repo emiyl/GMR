@@ -4,12 +4,12 @@
 // 10 function symbol(s) attributed to this object.
 
 void png_build_gamma_table(void *, unsigned char);
-void png_do_background(void *, /* type 0x620 */, void *, void *, void *, /* type 0x620 */, /* type 0x620 */, /* type 0x620 */, void *, void *, void *, int32_t);
-void png_do_expand(void *, /* type 0x620 */, void *);
-void png_do_expand_palette(void *, /* type 0x620 */, void *, /* type 0x620 */, int32_t);
-void png_do_gamma(void *, /* type 0x620 */, /* type 0x620 */, void *, int32_t);
-void png_do_gray_to_rgb(void *, /* type 0x620 */);
+void png_do_background(void *, uchar* uint8_t*, void *, void *, void *, uchar* uint8_t*, uchar* uint8_t*, uchar* uint8_t*, void *, void *, void *, int32_t);
+void png_do_expand(void *, uchar* uint8_t*, void *);
+void png_do_expand_palette(void *, uchar* uint8_t*, void *, uchar* uint8_t*, int32_t);
+void png_do_gamma(void *, uchar* uint8_t*, uchar* uint8_t*, void *, int32_t);
+void png_do_gray_to_rgb(void *, uchar* uint8_t*);
 void png_do_read_transformations(void *);
-int32_t png_do_rgb_to_gray(void *, void *, /* type 0x620 */);
+int32_t png_do_rgb_to_gray(void *, void *, uchar* uint8_t*);
 void png_init_read_transformations(void *);
 void png_read_transform_info(void *, void *);

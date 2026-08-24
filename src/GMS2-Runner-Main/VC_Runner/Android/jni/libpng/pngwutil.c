@@ -3,18 +3,18 @@
 // Compiled into : D:\a\GameMaker\GameMaker\GameMaker\Runner\GMS2-Runner-Main\VC_Runner\x64\Release-Zeus\pngwutil.obj
 // 30 function symbol(s) attributed to this object.
 
-void png_do_write_interlace(void *, /* type 0x620 */, int32_t);
+void png_do_write_interlace(void *, uchar* uint8_t*, int32_t);
 int32_t png_text_compress(void *, char*, /* type 0x23 */, int32_t, void *);
-void png_write_IDAT(void *, /* type 0x620 */, /* type 0x23 */);
+void png_write_IDAT(void *, uchar* uint8_t*, /* type 0x23 */);
 void png_write_IHDR(void *, uint32_t, uint32_t, int32_t, int32_t, int32_t, int32_t, int32_t);
 void png_write_PLTE(void *, void *, uint32_t);
 void png_write_bKGD(void *, void *, int32_t);
 void png_write_cHRM(void *, double, double, double, double, double, double, double, double);
-void png_write_chunk(void *, /* type 0x620 */, /* type 0x620 */, /* type 0x23 */);
-void png_write_chunk_data(void *, /* type 0x620 */, /* type 0x23 */);
+void png_write_chunk(void *, uchar* uint8_t*, uchar* uint8_t*, /* type 0x23 */);
+void png_write_chunk_data(void *, uchar* uint8_t*, /* type 0x23 */);
 void png_write_chunk_end(void *);
-void png_write_chunk_start(void *, /* type 0x620 */, uint32_t);
-void png_write_filtered_row(void *, /* type 0x620 */);
+void png_write_chunk_start(void *, uchar* uint8_t*, uint32_t);
+void png_write_filtered_row(void *, uchar* uint8_t*);
 void png_write_find_filter(void *, void *);
 void png_write_finish_row(void *);
 void png_write_gAMA(void *, double);
@@ -31,5 +31,5 @@ void png_write_sRGB(void *, int32_t);
 void png_write_start_row(void *);
 void png_write_tEXt(void *, char*, char*, /* type 0x23 */);
 void png_write_tIME(void *, void *);
-void png_write_tRNS(void *, /* type 0x620 */, void *, int32_t, int32_t);
+void png_write_tRNS(void *, uchar* uint8_t*, void *, int32_t, int32_t);
 void png_write_zTXt(void *, char*, char*, /* type 0x23 */, int32_t);

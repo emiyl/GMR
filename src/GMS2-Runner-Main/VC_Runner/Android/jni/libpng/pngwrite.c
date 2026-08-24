@@ -9,4 +9,4 @@ void png_write_end(void *, void *);
 void png_write_image(void *, void *);
 void png_write_info(void *, void *);
 void png_write_info_before_PLTE(void *, void *);
-void png_write_row(void *, /* type 0x620 */);
+void png_write_row(void *, uchar* uint8_t*);
