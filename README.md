@@ -2,6 +2,21 @@
 
 Compile using MSVC 19.38.33145.0 and Linker 14.29.30159.0. The PDB suggest it was compiled with SDK 10.0.26100.0, but it was also released on April 14th, 2024, which predates that SDK. So we're using 22621 instead here.
 
+## Libraries
+
+- libpng (unknown version)
+- libzip (unknown version)
+- freetype 2.8
+- giflib (unknown version)
+- imgui (unknown version, maybe v1.90.4)
+- libjpeg (unknown version)
+- spine-c (unknown version)
+- zlib 1.2.3
+
+## Building
+
+Building won't work right now as I'm reworking the structure a bit.
+
 You can install this with the command below. Ensure the MSVC directory exists first.
 
 ```pwsh
